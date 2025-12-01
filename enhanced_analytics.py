@@ -157,12 +157,24 @@ class CoffeeShopAnalytics:
 
         sales_data = self.df[amount_col]
 
+        if len(sales_data) == 0:
+            return {
+                'count': 0, 'total': 0, 'mean': None, 'median': None,
+                'mode': None, 'std_dev': None, 'variance': None,
+                'min': None, 'max': None, 'range': None,
+                'q1': None, 'q3': None, 'iqr': None,
+                'skewness': None, 'kurtosis': None
+            }
+
+        mode_series = sales_data.mode()
+        mode_value = mode_series.iloc[0] if len(mode_series) > 0 else None
+
         stats_dict = {
             'count': len(sales_data),
             'total': sales_data.sum(),
             'mean': sales_data.mean(),
             'median': sales_data.median(),
-            'mode': sales_data.mode().iloc[0] if len(sales_data.mode()) > 0 else None,
+            'mode': mode_value,
             'std_dev': sales_data.std(),
             'variance': sales_data.var(),
             'min': sales_data.min(),
@@ -479,9 +491,12 @@ class CoffeeShopAnalytics:
 
         return fig
 
-    def plot_daily_trend(self, amount_col='money', save_path=None):
+    def plot_daily_trend(self, amount_col='money', datetime_col='datetime', save_path=None):
         """Plot daily sales trend."""
-        daily = self.df.set_index('datetime').resample('D')[amount_col].sum()
+        if datetime_col not in self.df.columns:
+            raise ValueError(f"Column '{datetime_col}' not found. Run clean_data() first.")
+
+        daily = self.df.set_index(datetime_col).resample('D')[amount_col].sum()
 
         fig, ax = plt.subplots(figsize=(14, 6))
         daily.plot(kind='line', marker='o', color='blue',
@@ -605,12 +620,21 @@ class CoffeeShopAnalytics:
             raise ValueError(f"Unsupported format: {format}")
 
 
-def run_demo_analysis():
-    """Run a demonstration analysis with sample data or existing file."""
+# Default data file path constant
+DEFAULT_DATA_FILE = 'coffee sales dataset.csv'
+
+
+def run_demo_analysis(data_file=None):
+    """
+    Run a demonstration analysis with sample data or existing file.
+
+    Args:
+        data_file: Path to the data file. If None, uses DEFAULT_DATA_FILE.
+    """
     import os
 
-    # Check if sample data exists
-    data_file = 'coffee sales dataset.csv'
+    if data_file is None:
+        data_file = DEFAULT_DATA_FILE
 
     if not os.path.exists(data_file):
         print("No data file found. Creating sample data for demonstration...")
@@ -681,22 +705,22 @@ def run_demo_analysis():
 
     # Top Products
     top_5 = analytics.get_top_products(5)
-    print(f"\n🏆 TOP 5 PRODUCTS:")
-    for i, row in top_5.iterrows():
-        print(f"   {i+1}. {row['coffee_name']}: ${row['total_sales']:,.2f}")
+    print("\n🏆 TOP 5 PRODUCTS:")
+    for rank, (_, row) in enumerate(top_5.iterrows(), start=1):
+        print(f"   {rank}. {row['coffee_name']}: ${row['total_sales']:,.2f}")
 
     # Generate Report
-    print(f"\n📊 Generating comprehensive report...")
-    report = analytics.generate_comprehensive_report(output_dir='analytics_output')
-    print(f"   Report generated in 'analytics_output' directory")
+    print("\n📊 Generating comprehensive report...")
+    analytics.generate_comprehensive_report(output_dir='analytics_output')
+    print("   Report generated in 'analytics_output' directory")
 
     # Export cleaned data
     analytics.export_analysis('cleaned_sales_data.csv')
-    print(f"\n💾 Cleaned data exported to 'cleaned_sales_data.csv'")
+    print("\n💾 Cleaned data exported to 'cleaned_sales_data.csv'")
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("ANALYSIS COMPLETE")
-    print("="*60)
+    print("=" * 60)
 
     return analytics
 
