@@ -101,7 +101,7 @@ daily_sales_timeseries = coffee_sales_df.set_index('datetime').resample('D')['mo
 
 plt.figure(figsize=(14, 7))
 daily_sales_timeseries.plot(kind='line', marker='o', color='blue',linestyle='--',linewidth=2)
-plt.title('daily Sales Trend', fontsize=16)
+plt.title('Daily Sales Trend', fontsize=16)
 plt.xlabel('Date', fontsize=12)
 plt.ylabel('Sales($)', fontsize=12)
 plt.xticks(rotation=45)
