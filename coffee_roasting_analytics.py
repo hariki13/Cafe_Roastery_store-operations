@@ -277,6 +277,9 @@ def create_roasting_visualizations(df, save_plots=True):
     if save_plots:
         plt.savefig('roasting_parameters_correlation.png')
         print("7. Saved 'roasting_parameters_correlation.png'")
+    
+    # Close all figures to prevent memory leaks
+    plt.close('all')
 
 
 def generate_roasting_report(df, analytics, output_file='roasting_report.csv'):
