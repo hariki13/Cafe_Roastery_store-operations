@@ -139,7 +139,7 @@ class InventoryTransaction(db.Model):
     # Metadata
     transaction_date = db.Column(db.DateTime, default=datetime.utcnow, nullable=False, index=True)
     created_by = db.Column(db.Integer, db.ForeignKey('users.id'))
-    creator = db.relationship('User', backref='inventory_transactions')
+    creator = db.relationship('User', backref='created_inventory_transactions')
     
     def __repr__(self):
         return f'<Transaction {self.transaction_type} - {self.quantity}kg>'

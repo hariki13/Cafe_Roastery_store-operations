@@ -1,5 +1,6 @@
 """Application configuration."""
 import os
+import secrets
 from datetime import timedelta
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -9,7 +10,7 @@ class Config:
     """Base configuration."""
     
     # Secret key for session management
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'dev-secret-key-change-in-production'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or secrets.token_hex(32)
     
     # Database configuration
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \

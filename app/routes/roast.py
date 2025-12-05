@@ -29,21 +29,25 @@ def new_profile():
         return redirect(url_for('roast.profiles'))
     
     if request.method == 'POST':
-        profile = RoastProfile(
-            name=request.form.get('name'),
-            description=request.form.get('description'),
-            bean_type=request.form.get('bean_type'),
-            origin=request.form.get('origin'),
-            processing_method=request.form.get('processing_method'),
-            target_temp=float(request.form.get('target_temp', 0) or 0),
-            target_time=int(request.form.get('target_time', 0) or 0),
-            target_roast_level=request.form.get('target_roast_level'),
-            development_time=int(request.form.get('development_time', 0) or 0)
-        )
-        db.session.add(profile)
-        db.session.commit()
-        flash('Roast profile created successfully!', 'success')
-        return redirect(url_for('roast.profile_detail', id=profile.id))
+        try:
+            profile = RoastProfile(
+                name=request.form.get('name'),
+                description=request.form.get('description'),
+                bean_type=request.form.get('bean_type'),
+                origin=request.form.get('origin'),
+                processing_method=request.form.get('processing_method'),
+                target_temp=float(request.form.get('target_temp') or 0),
+                target_time=int(request.form.get('target_time') or 0),
+                target_roast_level=request.form.get('target_roast_level'),
+                development_time=int(request.form.get('development_time') or 0)
+            )
+            db.session.add(profile)
+            db.session.commit()
+            flash('Roast profile created successfully!', 'success')
+            return redirect(url_for('roast.profile_detail', id=profile.id))
+        except (ValueError, TypeError) as e:
+            flash('Invalid input data. Please check your values.', 'danger')
+            return redirect(url_for('roast.new_profile'))
     
     return render_template('roast/profile_form.html', profile=None)
 
@@ -68,20 +72,24 @@ def edit_profile(id):
     profile = RoastProfile.query.get_or_404(id)
     
     if request.method == 'POST':
-        profile.name = request.form.get('name')
-        profile.description = request.form.get('description')
-        profile.bean_type = request.form.get('bean_type')
-        profile.origin = request.form.get('origin')
-        profile.processing_method = request.form.get('processing_method')
-        profile.target_temp = float(request.form.get('target_temp', 0) or 0)
-        profile.target_time = int(request.form.get('target_time', 0) or 0)
-        profile.target_roast_level = request.form.get('target_roast_level')
-        profile.development_time = int(request.form.get('development_time', 0) or 0)
-        profile.updated_at = datetime.utcnow()
-        
-        db.session.commit()
-        flash('Roast profile updated successfully!', 'success')
-        return redirect(url_for('roast.profile_detail', id=profile.id))
+        try:
+            profile.name = request.form.get('name')
+            profile.description = request.form.get('description')
+            profile.bean_type = request.form.get('bean_type')
+            profile.origin = request.form.get('origin')
+            profile.processing_method = request.form.get('processing_method')
+            profile.target_temp = float(request.form.get('target_temp') or 0)
+            profile.target_time = int(request.form.get('target_time') or 0)
+            profile.target_roast_level = request.form.get('target_roast_level')
+            profile.development_time = int(request.form.get('development_time') or 0)
+            profile.updated_at = datetime.utcnow()
+            
+            db.session.commit()
+            flash('Roast profile updated successfully!', 'success')
+            return redirect(url_for('roast.profile_detail', id=profile.id))
+        except (ValueError, TypeError) as e:
+            flash('Invalid input data. Please check your values.', 'danger')
+            return redirect(url_for('roast.edit_profile', id=profile.id))
     
     return render_template('roast/profile_form.html', profile=profile)
 

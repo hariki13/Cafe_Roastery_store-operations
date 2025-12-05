@@ -22,7 +22,7 @@ class FinancialRecord(db.Model):
     reference_type = db.Column(db.String(32))  # batch, purchase_order, sale_order
     reference_id = db.Column(db.String(64))
     batch_id = db.Column(db.Integer, db.ForeignKey('roast_batches.id'))
-    batch = db.relationship('RoastBatch', backref='financial_records')
+    batch = db.relationship('RoastBatch', backref='batch_financial_records')
     
     # Description
     description = db.Column(db.Text)
@@ -34,7 +34,7 @@ class FinancialRecord(db.Model):
     
     # User tracking
     created_by = db.Column(db.Integer, db.ForeignKey('users.id'))
-    creator = db.relationship('User', backref='financial_records')
+    creator = db.relationship('User', backref='user_financial_records')
     
     def __repr__(self):
         return f'<FinancialRecord {self.record_type} - {self.amount} {self.currency}>'
