@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Batch {{ batch.batch_id }}{% endblock %}
+{% block content %}
+<h1><i class="bi bi-box-seam"></i> Batch {{ batch.batch_id }}</h1>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header"><h5>Batch Details</h5></div>
+            <div class="card-body">
+                <table class="table">
+                    <tr><td><strong>Profile:</strong></td><td>{{ batch.profile.name if batch.profile else 'N/A' }}</td></tr>
+                    <tr><td><strong>Operator:</strong></td><td>{{ batch.operator.username if batch.operator else 'N/A' }}</td></tr>
+                    <tr><td><strong>Date:</strong></td><td>{{ batch.roast_date.strftime('%Y-%m-%d %H:%M') if batch.roast_date else 'N/A' }}</td></tr>
+                    <tr><td><strong>Green Weight:</strong></td><td>{{ batch.green_weight }}kg</td></tr>
+                    <tr><td><strong>Roasted Weight:</strong></td><td>{{ batch.roasted_weight }}kg</td></tr>
+                    <tr><td><strong>Weight Loss:</strong></td><td>{{ "%.2f"|format(batch.weight_loss_pct) if batch.weight_loss_pct else 'N/A' }}%</td></tr>
+                    <tr><td><strong>Roast Level:</strong></td><td><span class="badge roast-{{ batch.roast_level }}">{{ batch.roast_level or 'N/A' }}</span></td></tr>
+                    <tr><td><strong>Notes:</strong></td><td>{{ batch.notes or 'None' }}</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="{{ url_for('roast.batches') }}" class="btn btn-secondary mt-3"><i class="bi bi-arrow-left"></i> Back to Batches</a>
+{% endblock %}

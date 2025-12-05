@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Add Green Bean Inventory{% endblock %}
+{% block content %}
+<h1>Add Green Bean Inventory</h1>
+<form method="POST">
+    <div class="card">
+        <div class="card-body">
+            <div class="mb-3"><label>Name *</label><input type="text" class="form-control" name="name" required></div>
+            <div class="mb-3"><label>Variety</label><input type="text" class="form-control" name="variety"></div>
+            <div class="mb-3"><label>Origin</label><input type="text" class="form-control" name="origin"></div>
+            <div class="mb-3"><label>Region</label><input type="text" class="form-control" name="region"></div>
+            <div class="mb-3"><label>Processing Method</label>
+                <select class="form-select" name="processing_method">
+                    <option value="Washed">Washed</option>
+                    <option value="Natural">Natural</option>
+                    <option value="Honey">Honey</option>
+                </select>
+            </div>
+            <div class="mb-3"><label>Current Stock (kg)</label><input type="number" step="0.01" class="form-control" name="current_stock" value="0"></div>
+            <div class="mb-3"><label>Unit Cost ($/kg)</label><input type="number" step="0.01" class="form-control" name="unit_cost" value="0"></div>
+            <div class="mb-3"><label>Supplier Name</label><input type="text" class="form-control" name="supplier_name"></div>
+            <div class="mb-3"><label>Low Stock Threshold (kg)</label><input type="number" step="0.01" class="form-control" name="low_stock_threshold" value="10"></div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a href="{{ url_for('inventory.index') }}" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>
+{% endblock %}

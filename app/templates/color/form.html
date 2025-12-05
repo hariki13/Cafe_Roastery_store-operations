@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}New Color Measurement{% endblock %}
+{% block content %}
+<h1>New Color Measurement</h1>
+<form method="POST">
+    <div class="card">
+        <div class="card-body">
+            <div class="mb-3"><label>Batch *</label>
+                <select class="form-select" name="batch_id" required>
+                    <option value="">Select Batch...</option>
+                    {% for batch in batches %}<option value="{{ batch.id }}">{{ batch.batch_id }}</option>{% endfor %}
+                </select>
+            </div>
+            <div class="mb-3"><label>Agtron Value</label><input type="number" step="0.1" class="form-control" name="agtron_value"></div>
+            <div class="mb-3"><label>Colortrack Value</label><input type="number" step="0.1" class="form-control" name="colortrack_value"></div>
+            <div class="mb-3"><label>Measurement Method</label>
+                <select class="form-select" name="measurement_method">
+                    <option value="manual">Manual</option>
+                    <option value="hardware">Hardware</option>
+                    <option value="visual">Visual</option>
+                </select>
+            </div>
+            <div class="mb-3"><label>Sample Type</label>
+                <select class="form-select" name="sample_type">
+                    <option value="whole_bean">Whole Bean</option>
+                    <option value="ground">Ground</option>
+                </select>
+            </div>
+            <div class="mb-3"><label>Roast Level (if not using Agtron)</label>
+                <select class="form-select" name="roast_level">
+                    <option value="">Auto from Agtron</option>
+                    <option value="light">Light</option>
+                    <option value="medium">Medium</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+            <div class="mb-3"><label>Notes</label><textarea class="form-control" name="notes" rows="2"></textarea></div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a href="{{ url_for('color.index') }}" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>
+{% endblock %}

@@ -1,7 +1,7 @@
 """Authentication routes."""
 from flask import Blueprint, render_template, redirect, url_for, flash, request
 from flask_login import login_user, logout_user, current_user
-from werkzeug.urls import url_parse
+from urllib.parse import urlparse
 from app import db
 from app.models.user import User
 from datetime import datetime
@@ -38,7 +38,7 @@ def login():
         
         # Redirect to next page or dashboard
         next_page = request.args.get('next')
-        if not next_page or url_parse(next_page).netloc != '':
+        if not next_page or urlparse(next_page).netloc != '':
             next_page = url_for('dashboard.index')
         
         flash(f'Welcome back, {user.username}!', 'success')

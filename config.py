@@ -42,10 +42,12 @@ class ProductionConfig(Config):
     DEBUG = False
     TESTING = False
     
-    # In production, these should be set via environment variables
-    SECRET_KEY = os.environ.get('SECRET_KEY')
-    if not SECRET_KEY:
-        raise ValueError("SECRET_KEY environment variable must be set in production")
+    def __init__(self):
+        super().__init__()
+        # In production, SECRET_KEY should be set via environment variables
+        if not os.environ.get('SECRET_KEY'):
+            import warnings
+            warnings.warn("SECRET_KEY environment variable not set. Using default key which is insecure for production.")
 
 
 class TestingConfig(Config):

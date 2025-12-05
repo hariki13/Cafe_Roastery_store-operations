@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Cupping Session{% endblock %}
+{% block content %}
+<h1>Cupping Session</h1>
+<div class="card">
+    <div class="card-body">
+        <h4>Final Score: {{ "%.2f"|format(session.final_score) if session.final_score else 'N/A' }} - {{ session.get_grade() }}</h4>
+        <p><strong>Batch:</strong> {{ session.batch.batch_id if session.batch else 'N/A' }}</p>
+        <p><strong>Evaluator:</strong> {{ session.evaluator.username if session.evaluator else 'N/A' }}</p>
+        <table class="table">
+            <tr><td>Fragrance/Aroma:</td><td>{{ session.fragrance_aroma }}</td></tr>
+            <tr><td>Flavor:</td><td>{{ session.flavor }}</td></tr>
+            <tr><td>Aftertaste:</td><td>{{ session.aftertaste }}</td></tr>
+            <tr><td>Acidity:</td><td>{{ session.acidity }}</td></tr>
+            <tr><td>Body:</td><td>{{ session.body }}</td></tr>
+            <tr><td>Balance:</td><td>{{ session.balance }}</td></tr>
+            <tr><td>Sweetness:</td><td>{{ session.sweetness }}</td></tr>
+            <tr><td>Clean Cup:</td><td>{{ session.clean_cup }}</td></tr>
+            <tr><td>Uniformity:</td><td>{{ session.uniformity }}</td></tr>
+            <tr><td>Overall:</td><td>{{ session.overall }}</td></tr>
+        </table>
+        <p><strong>Tasting Notes:</strong> {{ session.tasting_notes or 'None' }}</p>
+    </div>
+</div>
+<a href="{{ url_for('cupping.index') }}" class="btn btn-secondary mt-3">Back</a>
+{% endblock %}

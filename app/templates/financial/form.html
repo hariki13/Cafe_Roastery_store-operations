@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}New Financial Record{% endblock %}
+{% block content %}
+<h1>New Financial Record</h1>
+<form method="POST">
+    <div class="card">
+        <div class="card-body">
+            <div class="mb-3"><label>Record Type</label>
+                <select class="form-select" name="record_type" required>
+                    <option value="revenue">Revenue</option>
+                    <option value="expense">Expense</option>
+                    <option value="cogs">COGS</option>
+                    <option value="cogm">COGM</option>
+                </select>
+            </div>
+            <div class="mb-3"><label>Category</label><input type="text" class="form-control" name="category"></div>
+            <div class="mb-3"><label>Amount ($)</label><input type="number" step="0.01" class="form-control" name="amount" required></div>
+            <div class="mb-3"><label>Description</label><textarea class="form-control" name="description" rows="3"></textarea></div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a href="{{ url_for('financial.index') }}" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>
+{% endblock %}
