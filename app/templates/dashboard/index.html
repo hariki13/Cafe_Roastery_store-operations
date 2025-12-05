@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Coffee Roasting Operations{% endblock %}
+
+{% block content %}
+<h1 class="mb-4"><i class="bi bi-speedometer2"></i> Dashboard</h1>
+
+<!-- Statistics Cards -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-box-seam"></i> Total Batches</h5>
+                <h2 class="mb-0">{{ total_batches }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-boxes"></i> Green Beans</h5>
+                <h2 class="mb-0">{{ total_green_beans }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-warning text-dark">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-cup-hot"></i> Roasted Coffee</h5>
+                <h2 class="mb-0">{{ total_roasted }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-currency-dollar"></i> Monthly Profit</h5>
+                <h2 class="mb-0">${{ "%.2f"|format(monthly_revenue - monthly_expenses) }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content Row -->
+<div class="row">
+    <!-- Recent Batches -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-clock-history"></i> Recent Roast Batches</h5>
+            </div>
+            <div class="card-body">
+                {% if recent_batches %}
+                <div class="list-group">
+                    {% for batch in recent_batches %}
+                    <a href="{{ url_for('roast.batch_detail', id=batch.id) }}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">{{ batch.batch_id }}</h6>
+                            <small>{{ batch.roast_date.strftime('%Y-%m-%d') if batch.roast_date else 'N/A' }}</small>
+                        </div>
+                        <p class="mb-1">
+                            <span class="badge bg-secondary">{{ batch.roast_level or 'N/A' }}</span>
+                            {{ batch.green_weight }}kg → {{ batch.roasted_weight }}kg
+                        </p>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">No batches yet. <a href="{{ url_for('roast.new_batch') }}">Create your first batch</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Low Stock Alerts -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-exclamation-triangle"></i> Low Stock Alerts</h5>
+            </div>
+            <div class="card-body">
+                {% if low_stock_items %}
+                <div class="list-group">
+                    {% for item in low_stock_items %}
+                    <div class="list-group-item list-group-item-warning">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">{{ item.name }}</h6>
+                            <span class="badge bg-danger">{{ item.current_stock }}kg</span>
+                        </div>
+                        <p class="mb-1">{{ item.origin }} - {{ item.processing_method }}</p>
+                        <small>Threshold: {{ item.low_stock_threshold }}kg</small>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-success"><i class="bi bi-check-circle"></i> All stock levels are good!</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Second Row -->
+<div class="row">
+    <!-- Recent Cupping Scores -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-cup-straw"></i> Recent Cupping Scores</h5>
+            </div>
+            <div class="card-body">
+                {% if recent_cuppings %}
+                <div class="list-group">
+                    {% for cupping in recent_cuppings %}
+                    <a href="{{ url_for('cupping.session_detail', id=cupping.id) }}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Score: {{ "%.2f"|format(cupping.final_score) }}</h6>
+                            <span class="badge bg-primary">{{ cupping.get_grade() }}</span>
+                        </div>
+                        <p class="mb-1">{{ cupping.session_date.strftime('%Y-%m-%d') if cupping.session_date else 'N/A' }}</p>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted">No cupping sessions yet. <a href="{{ url_for('cupping.new_session') }}">Create one</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Financial Summary -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-graph-up"></i> This Month's Financial Summary</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm">
+                    <tr>
+                        <td><strong>Revenue:</strong></td>
+                        <td class="text-end text-success">${{ "%.2f"|format(monthly_revenue) }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Expenses:</strong></td>
+                        <td class="text-end text-danger">${{ "%.2f"|format(monthly_expenses) }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Profit:</strong></td>
+                        <td class="text-end"><strong>${{ "%.2f"|format(monthly_revenue - monthly_expenses) }}</strong></td>
+                    </tr>
+                </table>
+                <a href="{{ url_for('financial.index') }}" class="btn btn-sm btn-primary w-100">
+                    <i class="bi bi-arrow-right"></i> View Detailed Reports
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

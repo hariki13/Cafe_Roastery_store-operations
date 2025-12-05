@@ -1,0 +1,150 @@
+/* Custom CSS for Coffee Roasting Operations */
+
+:root {
+    --coffee-brown: #6F4E37;
+    --coffee-light: #A67C52;
+    --coffee-dark: #3E2723;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: var(--coffee-brown);
+    border-color: var(--coffee-brown);
+}
+
+.btn-primary:hover {
+    background-color: var(--coffee-dark);
+    border-color: var(--coffee-dark);
+}
+
+.bg-primary {
+    background-color: var(--coffee-brown) !important;
+}
+
+.text-primary {
+    color: var(--coffee-brown) !important;
+}
+
+/* Stats cards */
+.card.bg-primary,
+.card.bg-success,
+.card.bg-warning,
+.card.bg-info {
+    border: none;
+}
+
+.card.bg-primary .card-body h2,
+.card.bg-success .card-body h2,
+.card.bg-info .card-body h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Tables */
+.table {
+    background-color: white;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: var(--coffee-light);
+    box-shadow: 0 0 0 0.2rem rgba(111, 78, 55, 0.25);
+}
+
+/* Badges */
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+}
+
+/* Cupping score colors */
+.score-outstanding { color: #28a745; font-weight: bold; }
+.score-excellent { color: #20c997; font-weight: bold; }
+.score-very-good { color: #17a2b8; }
+.score-good { color: #ffc107; }
+.score-fair { color: #fd7e14; }
+.score-below { color: #dc3545; }
+
+/* Roast level indicators */
+.roast-light { 
+    background: linear-gradient(to right, #D2B48C, #BC987E);
+    color: #333;
+}
+
+.roast-medium { 
+    background: linear-gradient(to right, #8B7355, #6F5C4E);
+    color: white;
+}
+
+.roast-dark { 
+    background: linear-gradient(to right, #4A3728, #2C1810);
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Alert animations */
+.alert {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Chart containers */
+.chart-container {
+    position: relative;
+    height: 300px;
+    margin: 20px 0;
+}
