@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Model files
+*.pth
+*. onnx
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+
+# Data
+data/raw/*
+data/processed/*
+uploads/*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*
+*.log
