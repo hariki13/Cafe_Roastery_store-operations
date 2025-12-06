@@ -1,0 +1,30 @@
+COFFEE STORE DATA CLEANING REPORT
+================================================================================
+
+Date: 2025-12-06 19:53:02
+
+• Original dataset: 122 rows, 16 columns
+• Missing values found in 6 columns
+• Text columns cleaned and standardized
+• Time columns converted to 24-hour format
+• Postal codes validated and standardized to 5 digits
+• Rating columns validated (0-5 range)
+• Missing ratings imputed using multi-strategy approach
+• Secondary address field filled with 'N/A' where missing
+• Outlier detection completed - extreme ratings kept as valid
+• Derived features created: AverageRating, RatingCount, StoreType, Region
+
+🐍 The re Module in Python
+What it is: The re module in Python provides support for regular expressions. 
+
+Regular expressions (regex) are powerful patterns used to match, search, and manipulate strings.
+
+Why we use import re: By importing re, you gain access to functions that let you:
+
+Search for specific text patterns
+
+Validate formats (like emails, phone numbers, postal codes)
+
+Replace or split strings based on patterns
+
+Extract substrings that match complex rules
