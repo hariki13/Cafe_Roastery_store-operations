@@ -8,7 +8,7 @@ based on the standard formula: S = 0.65625 × Σ(h_i) + 52.75 - 2u - 4d
 Author: Cafe Roastery Store Operations Team
 """
 
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 
 class CuppingCalculator:
@@ -145,7 +145,7 @@ class CuppingCalculator:
         """
         return round(self.calculate(), decimals)
     
-    def get_breakdown(self) -> Dict[str, any]:
+    def get_breakdown(self) -> Dict[str, Union[float, Dict[str, float]]]:
         """
         Return a detailed breakdown of the calculation.
         
@@ -215,7 +215,7 @@ def interactive_cli():
     print("\nThis calculator uses the standard cupping formula:")
     print("S = 0.65625 × Σ(h_i) + 52.75 - 2u - 4d")
     print("\nWhere:")
-    print("  - h_i: 9-point score for each of 8 sections (0-10 scale)")
+    print("  - h_i: Score for each of 8 sections (0-10 scale)")
     print("  - u: Number of non-uniform cups")
     print("  - d: Number of defective cups")
     print("\n" + "=" * 60)
