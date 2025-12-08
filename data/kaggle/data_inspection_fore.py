@@ -138,17 +138,29 @@ print("=="*50)
 print("\n🔍 checking for type issues...:")
 
 for col in df.columns:
+    # check if 'numeric' column stored as object
     if df[col].dtype == 'object':
         # Try converting to numeric
         try:
-            df[col] = pd.to_numeric(df[col])
-            print(f" ✅ Converted column '{col}' to numeric")
+            numeric_version = pd.to_numeric(df[col], errors='coerce')
+            non_null_original = df[col].notna().sum()
+            non_null_converted = numeric_version.notna().sum()
+            
+            if non_null_converted / non_null_original > 0.95: # 95% conversion rate successfully
+                print(f" 🚧 '{col}' should probably be NUMERIC (currently object)")
         except ValueError:
             pass
         
-        # Try converting to datetime
-        try:
-            df[col] = pd.to_datetime(df[col])
-            print(f" ✅ Converted column '{col}' to datetime")
-        except ValueError:
-            pass
+        # check if date column stored as object
+        if df[col].dtype == 'object' and 'date' in col.lower():
+            print(f" 🚧 '{col} might be a DATE (currently object)")
+
+try:
+    # Convert multiple datetime columns
+    for col in ['opentime', 'closedtime']:
+        df[col] = pd.to_datetime(df[col])
+        print(f" ✅ Converted column '{col}' to datetime")
+except ValueError as e:
+    print(f" ❌ Error converting to datetime: {e}")
+
+print("\n✅ Data type validation completed.")

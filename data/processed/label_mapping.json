@@ -1,0 +1,19 @@
+{
+  "id2label": {
+    "0": "light",
+    "1": "light_medium",
+    "2": "medium",
+    "3": "medium_dark",
+    "4": "dark",
+    "5": "very_dark"
+  },
+  "label2id": {
+    "light": 0,
+    "light_medium": 1,
+    "medium": 2,
+    "medium_dark": 3,
+    "dark": 4,
+    "very_dark": 5
+  },
+  "num_labels": 6
+}
