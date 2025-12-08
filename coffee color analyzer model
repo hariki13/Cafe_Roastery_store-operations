@@ -1,0 +1,510 @@
+# PREPARING DATA
+
+"""
+Prepare and split dataset for training
+Save this in scripts/prepare_data.py
+Run: python scripts/prepare_data. py
+"""
+
+import os
+import shutil
+from pathlib import Path
+from sklearn.model_selection import train_test_split
+from PIL import Image
+import json
+from tqdm import tqdm
+
+class CoffeeDatasetPreparer:
+    def __init__(self, raw_data_dir='data/raw', output_dir='data/processed', 
+                 val_split=0.2, test_split=0.1):
+        self.raw_data_dir = Path(raw_data_dir)
+        self.output_dir = Path(output_dir)
+        self.val_split = val_split
+        self. test_split = test_split
+        
+        self.roast_levels = {
+            'light': 0,
+            'light_medium': 1,
+            'medium': 2,
+            'medium_dark': 3,
+            'dark': 4,
+            'very_dark': 5
+        }
+    
+    def validate_images(self):
+        """Check and validate all images"""
+        print("\n🔍 Validating images...")
+        valid_images = []
+        invalid_images = []
+        
+        for roast_level in self.roast_levels.keys():
+            roast_dir = self.raw_data_dir / roast_level
+            if not roast_dir.exists():
+                print(f"⚠️  Directory not found: {roast_dir}")
+                continue
+            
+            image_files = list(roast_dir.glob('*.*'))
+            print(f"\n📁 Checking {roast_level}: {len(image_files)} files")
+            
+            for img_path in tqdm(image_files, desc=f"Validating {roast_level}"):
+                if img_path.suffix.lower() in ['.jpg', '.jpeg', '. png', '.bmp']:
+                    try:
+                        img = Image.open(img_path)
+                        img.verify()
+                        valid_images.append((img_path, roast_level))
+                    except Exception as e:
+                        invalid_images.append((img_path, str(e)))
+                        print(f"❌ Invalid: {img_path. name}")
+        
+        print(f"\n✅ Valid images: {len(valid_images)}")
+        print(f"❌ Invalid images: {len(invalid_images)}")
+        
+        return valid_images, invalid_images
+    
+    def prepare_splits(self, valid_images):
+        """Split data into train, validation, and test sets"""
+        print("\n✂️  Splitting dataset...")
+        
+        images_by_level = {}
+        for img_path, roast_level in valid_images:
+            if roast_level not in images_by_level:
+                images_by_level[roast_level] = []
+            images_by_level[roast_level]. append(img_path)
+        
+        train_images = []
+        val_images = []
+        test_images = []
+        
+        for roast_level, images in images_by_level.items():
+            if len(images) < 10:
+                print(f"⚠️  Warning: Only {len(images)} images for {roast_level}")
+            
+            # Split: train/val/test
+            train_val, test = train_test_split(
+                images, test_size=self.test_split, random_state=42
+            )
+            train, val = train_test_split(
+                train_val, 
+                test_size=self. val_split / (1 - self.test_split),
+                random_state=42
+            )
+            
+            train_images.extend([(img, roast_level) for img in train])
+            val_images.extend([(img, roast_level) for img in val])
+            test_images.extend([(img, roast_level) for img in test])
+            
+            print(f"  {roast_level:15s}: {len(train):3d} train, {len(val):3d} val, {len(test):3d} test")
+        
+        print(f"\n📊 Total Split:")
+        print(f"  Train:      {len(train_images)}")
+        print(f"  Validation: {len(val_images)}")
+        print(f"  Test:       {len(test_images)}")
+        
+        return train_images, val_images, test_images
+    
+    def copy_images(self, images, split_name):
+        """Copy images to split directory"""
+        split_dir = self.output_dir / split_name
+        split_dir.mkdir(parents=True, exist_ok=True)
+        
+        print(f"\n📋 Processing {split_name} set...")
+        
+        metadata = []
+        for idx, (img_path, roast_level) in enumerate(tqdm(images, desc=f"Copying {split_name}")):
+            new_filename = f"{roast_level}_{idx:04d}{img_path.suffix}"
+            new_path = split_dir / new_filename
+            
+            # Resize and save
+            img = Image.open(img_path). convert('RGB')
+            
+            # Resize if too large
+            max_size = 800
+            if max(img.size) > max_size:
+                img. thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+            
+            img.save(new_path, quality=95)
+            
+            metadata.append({
+                'file_name': new_filename,
+                'roast_level': roast_level,
+                'label': self.roast_levels[roast_level],
+                'original_path': str(img_path)
+            })
+        
+        # Save metadata
+        with open(split_dir / 'metadata.json', 'w') as f:
+            json.dump(metadata, f, indent=2)
+        
+        print(f"✅ Saved {len(images)} images to {split_dir}")
+    
+    def create_label_mapping(self):
+        """Create label mapping file"""
+        mapping = {
+            'id2label': {v: k for k, v in self.roast_levels.items()},
+            'label2id': self.roast_levels,
+            'num_labels': len(self.roast_levels)
+        }
+        
+        with open(self.output_dir / 'label_mapping. json', 'w') as f:
+            json.dump(mapping, f, indent=2)
+        
+        print(f"✅ Label mapping saved")
+    
+    def prepare(self):
+        """Run complete preparation pipeline"""
+        print("="*60)
+        print("COFFEE DATASET PREPARATION")
+        print("="*60)
+        
+        valid_images, invalid_images = self.validate_images()
+        
+        if len(valid_images) < 50:
+            print("\n❌ Not enough images!  Need at least 50 total.")
+            print("Please collect more images first.")
+            return False
+        
+        train, val, test = self.prepare_splits(valid_images)
+        
+        self.copy_images(train, 'train')
+        self.copy_images(val, 'val')
+        self.copy_images(test, 'test')
+        
+        self.create_label_mapping()
+        
+        print("\n" + "="*60)
+        print("✅ DATA PREPARATION COMPLETE!")
+        print("="*60)
+        print(f"\nOutput directory: {self.output_dir}")
+        print("\nNext step: python scripts/train_model.py")
+        
+        return True
+
+if __name__ == "__main__":
+    preparer = CoffeeDatasetPreparer()
+    preparer.prepare()
+
+# TESTING THE MODEL
+"""
+Test your trained model with a single image
+Run: python scripts/test_model. py
+"""
+
+import torch
+from transformers import AutoImageProcessor, AutoModelForImageClassification
+from PIL import Image
+import json
+from pathlib import Path
+
+def test_model(model_path, image_path):
+    """
+    Test the model with a single image
+    
+    Args:
+        model_path: Path to your trained model (e.g., 'models/coffee-roast-v1/final_model')
+        image_path: Path to test image
+    """
+    
+    print("="*60)
+    print("🧪 TESTING YOUR MODEL")
+    print("="*60)
+    
+    # Check if model exists
+    model_path = Path(model_path)
+    if not model_path.exists():
+        print(f"❌ Model not found at: {model_path}")
+        print("\nDid you run training? Try: python scripts/train_model.py")
+        return
+    
+    print(f"\n📂 Loading model from: {model_path}")
+    
+    # Load model and processor
+    try:
+        processor = AutoImageProcessor.from_pretrained(str(model_path))
+        model = AutoModelForImageClassification. from_pretrained(str(model_path))
+        model.eval()
+        print("✅ Model loaded successfully!")
+    except Exception as e:
+        print(f"❌ Error loading model: {e}")
+        return
+    
+    # Check device
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    print(f"🖥️  Using device: {device}")
+    
+    # Load and display image info
+    image_path = Path(image_path)
+    if not image_path.exists():
+        print(f"\n❌ Image not found: {image_path}")
+        return
+    
+    print(f"\n📸 Loading image: {image_path}")
+    image = Image.open(image_path).convert('RGB')
+    print(f"   Size: {image.size}")
+    print(f"   Format: {image.format}")
+    
+    # Preprocess
+    print("\n🔄 Processing image...")
+    inputs = processor(images=image, return_tensors="pt")
+    inputs = {k: v.to(device) for k, v in inputs.items()}
+    
+    # Predict
+    print("🤖 Making prediction...")
+    with torch.no_grad():
+        outputs = model(**inputs)
+        logits = outputs.logits
+        probabilities = torch.nn.functional. softmax(logits, dim=-1)[0]
+    
+    # Get results
+    predicted_idx = logits.argmax(-1).item()
+    predicted_label = model.config.id2label[predicted_idx]
+    confidence = probabilities[predicted_idx].item()
+    
+    # Display results
+    print("\n" + "="*60)
+    print("🎯 PREDICTION RESULTS")
+    print("="*60)
+    print(f"\n🏆 Predicted Roast: {predicted_label. upper(). replace('_', ' ')}")
+    print(f"📊 Confidence: {confidence:. 1%}")
+    print(f"🎲 Roast Level: {predicted_idx}")
+    
+    print("\n📈 All Probabilities:")
+    print("-"*60)
+    
+    # Sort by probability
+    sorted_probs = sorted(
+        [(model.config.id2label[i], probabilities[i].item()) 
+         for i in range(len(probabilities))],
+        key=lambda x: x[1],
+        reverse=True
+    )
+    
+    for label, prob in sorted_probs:
+        bar_length = int(prob * 40)
+        bar = "█" * bar_length
+        print(f"{label:15s} {prob:6.1%} {bar}")
+    
+    print("="*60)
+    print("✅ Test complete!")
+    print("="*60)
+    
+    return {
+        'predicted_roast': predicted_label,
+        'confidence': confidence,
+        'all_probabilities': {label: prob for label, prob in sorted_probs}
+    }
+
+if __name__ == "__main__":
+    import sys
+    
+    # Default paths
+    model_path = "models/coffee-roast-v1/final_model"
+    
+    # Try to find a test image
+    test_image = None
+    possible_paths = [
+        "uploads",  # Check uploads folder first
+        "data/processed/test",
+        "data/processed/val",
+        "data/raw/medium"
+    ]
+    
+    for path in possible_paths:
+        path = Path(path)
+        if path.exists():
+            images = list(path.glob("*.jpg")) + list(path.glob("*.png"))
+            if images:
+                test_image = str(images[0])
+                break
+    
+    if test_image is None:
+        print("❌ No test image found!")
+        print("\nUsage: python scripts/test_model.py [model_path] [image_path]")
+        print(f"\nExample: python scripts/test_model.py {model_path} uploads/IMG-20251114-WA0007.jpg")
+        sys.exit(1)
+    
+    # Allow command line arguments
+    if len(sys. argv) > 1:
+        model_path = sys.argv[1]
+    if len(sys.argv) > 2:
+        test_image = sys.argv[2]
+    
+    print(f"Using model: {model_path}")
+    print(f"Using image: {test_image}")
+    print()
+    
+    test_model(model_path, test_image)
+
+    # TRAINING THE MODEL
+
+    """
+Train the coffee roast classification model
+Run: python scripts/train_model. py
+"""
+
+import torch
+from transformers import (
+    AutoImageProcessor,
+    AutoModelForImageClassification,
+    TrainingArguments,
+    Trainer
+)
+from datasets import load_dataset, Dataset, DatasetDict
+from PIL import Image
+import json
+from pathlib import Path
+import numpy as np
+from sklearn.metrics import accuracy_score
+
+class SimpleCoffeeTrainer:
+    def __init__(self, data_dir='data/processed', 
+                 model_name='google/vit-base-patch16-224',
+                 output_dir='models/coffee-roast-v1'):
+        
+        self.data_dir = Path(data_dir)
+        self.model_name = model_name
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Load label mapping
+        with open(self.data_dir / 'label_mapping.json') as f:
+            label_info = json.load(f)
+        
+        self.num_labels = label_info['num_labels']
+        self.id2label = {int(k): v for k, v in label_info['id2label'].items()}
+        self.label2id = label_info['label2id']
+        
+        print("="*60)
+        print("COFFEE ROAST MODEL TRAINING")
+        print("="*60)
+        print(f"Model: {model_name}")
+        print(f"Classes: {list(self.id2label.values())}")
+        print(f"Output: {output_dir}")
+        print("="*60)
+    
+    def load_data(self):
+        """Load train and validation data"""
+        print("\n📂 Loading datasets...")
+        
+        def load_split(split_name):
+            split_dir = self.data_dir / split_name
+            with open(split_dir / 'metadata.json') as f:
+                metadata = json.load(f)
+            
+            return Dataset.from_dict({
+                'image': [str(split_dir / item['file_name']) for item in metadata],
+                'label': [item['label'] for item in metadata]
+            })
+        
+        self.dataset = DatasetDict({
+            'train': load_split('train'),
+            'validation': load_split('val'),
+            'test': load_split('test')
+        })
+        
+        print(f"✅ Train: {len(self.dataset['train'])} images")
+        print(f"✅ Val:   {len(self.dataset['validation'])} images")
+        print(f"✅ Test:  {len(self.dataset['test'])} images")
+    
+    def setup_model(self):
+        """Load model and processor"""
+        print(f"\n🤖 Loading model: {self. model_name}")
+        
+        self.processor = AutoImageProcessor.from_pretrained(self.model_name)
+        self.model = AutoModelForImageClassification.from_pretrained(
+            self.model_name,
+            num_labels=self.num_labels,
+            id2label=self.id2label,
+            label2id=self.label2id,
+            ignore_mismatched_sizes=True
+        )
+        
+        print("✅ Model loaded")
+    
+    def preprocess_data(self):
+        """Preprocess images"""
+        print("\n🖼️  Preprocessing images...")
+        
+        def transform(batch):
+            images = [Image.open(path).convert('RGB') for path in batch['image']]
+            inputs = self.processor(images, return_tensors='pt')
+            inputs['labels'] = batch['label']
+            return inputs
+        
+        self.dataset = self.dataset.map(transform, batched=True, batch_size=32)
+        print("✅ Preprocessing complete")
+    
+    def compute_metrics(self, eval_pred):
+        """Calculate accuracy"""
+        predictions, labels = eval_pred
+        predictions = np.argmax(predictions, axis=1)
+        accuracy = accuracy_score(labels, predictions)
+        return {'accuracy': accuracy}
+    
+    def train(self, num_epochs=10, batch_size=16):
+        """Train the model"""
+        print("\n🏋️  Starting training...")
+        print(f"Epochs: {num_epochs}")
+        print(f"Batch size: {batch_size}")
+        print("\n⏱️  This may take 15-30 minutes...")
+        
+        training_args = TrainingArguments(
+            output_dir=str(self.output_dir / 'checkpoints'),
+            num_train_epochs=num_epochs,
+            per_device_train_batch_size=batch_size,
+            per_device_eval_batch_size=batch_size,
+            eval_strategy="epoch",
+            save_strategy="epoch",
+            load_best_model_at_end=True,
+            logging_steps=10,
+            remove_unused_columns=False,
+            push_to_hub=False,
+            report_to="none"
+        )
+        
+        trainer = Trainer(
+            model=self.model,
+            args=training_args,
+            train_dataset=self.dataset['train'],
+            eval_dataset=self.dataset['validation'],
+            compute_metrics=self.compute_metrics
+        )
+        
+        # Train
+        train_result = trainer.train()
+        
+        # Save model
+        final_model_dir = self.output_dir / 'final_model'
+        trainer.save_model(str(final_model_dir))
+        self.processor.save_pretrained(str(final_model_dir))
+        
+        print("\n" + "="*60)
+        print("✅ TRAINING COMPLETE!")
+        print("="*60)
+        print(f"Model saved to: {final_model_dir}")
+        print("\nNext step: python scripts/test_model.py")
+        
+        return trainer
+    
+    def run(self, num_epochs=10, batch_size=16):
+        """Run complete training pipeline"""
+        self.load_data()
+        self.setup_model()
+        self.preprocess_data()
+        trainer = self.train(num_epochs, batch_size)
+        return trainer
+
+if __name__ == "__main__":
+    # Check if GPU is available
+    if torch.cuda.is_available():
+        print(f"🚀 GPU detected: {torch.cuda.get_device_name(0)}")
+    else:
+        print("💻 Using CPU (training will be slower)")
+    
+    trainer = SimpleCoffeeTrainer()
+    trainer.run(num_epochs=10, batch_size=16)
+    
+    
+
+
+    
