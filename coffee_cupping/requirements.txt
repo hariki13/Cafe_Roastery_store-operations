@@ -1,0 +1,60 @@
+# Coffee Cupping Calculator - Dependencies
+# ==========================================
+
+# Current Requirements
+# --------------------
+# The basic calculator has no external dependencies.
+# It uses only Python standard library modules.
+
+# Optional Dependencies for Future Enhancements
+# ----------------------------------------------
+
+# Data Analysis and Processing
+# pandas>=2.0.0        # Data manipulation and analysis
+# numpy>=1.24.0        # Numerical computing
+
+# Machine Learning
+# scikit-learn>=1.3.0  # Machine learning algorithms and model training
+# tensorflow>=2.13.0   # Deep learning framework for advanced predictions
+# torch>=2.0.0         # Alternative deep learning framework
+
+# Web Interface
+# flask>=2.3.0         # Lightweight web framework for REST API
+# fastapi>=0.100.0     # Modern, fast web framework with automatic API docs
+# streamlit>=1.25.0    # Interactive web dashboards and UI
+# uvicorn>=0.23.0      # ASGI server for FastAPI
+
+# Database
+# sqlalchemy>=2.0.0    # SQL toolkit and ORM
+# psycopg2-binary>=2.9.0  # PostgreSQL adapter
+# pymongo>=4.4.0       # MongoDB driver
+
+# API Development
+# pydantic>=2.0.0      # Data validation using Python type hints
+# marshmallow>=3.20.0  # Object serialization/deserialization
+
+# Data Visualization
+# matplotlib>=3.7.0    # Plotting library
+# seaborn>=0.12.0      # Statistical data visualization
+# plotly>=5.15.0       # Interactive plots and dashboards
+
+# Report Generation
+# reportlab>=4.0.0     # PDF generation
+# jinja2>=3.1.0        # Template engine for reports
+
+# Data Import/Export
+# openpyxl>=3.1.0      # Excel file operations
+# xlsxwriter>=3.1.0    # Excel file writing
+
+# Testing (for developers)
+# pytest>=7.4.0        # Testing framework
+# pytest-cov>=4.1.0    # Coverage plugin for pytest
+
+# Documentation
+# sphinx>=7.0.0        # Documentation generator
+# sphinx-rtd-theme>=1.2.0  # Read the Docs theme
+
+# Code Quality
+# black>=23.7.0        # Code formatter
+# flake8>=6.0.0        # Linting
+# mypy>=1.4.0          # Static type checking
