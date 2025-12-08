@@ -85,16 +85,19 @@ if __name__ == "__main__":
     # ls -lh command
     cmd_ls = ["ls", "-lh", "data/raw/light/coffeeshop_section/"]
     subprocess.run(cmd_ls)
+    # terminal = ls -lh /workspaces/Cafe_Roastery_store-operations/data/kaggle/*csv (list all csv files in kaggle folder)
 
     # head command
     cmd_head = ["head", "-n", "10", "data/raw/light/coffeeshop_section/coffee-store-locations.csv"]
     subprocess.run(cmd_head)    
     print(result.stdout)
+    # terminal = $ cd /workspaces/Cafe_Roastery_store-operations/.venv/bin/pythonscripts/kaggle/ "dataset-name"
 
     # command list kaggle data set
     cmd_list = ["kaggle", "datasets", "list", "-s", "coffee store location"]
     subprocess.run(cmd_list)
-    print(result.stdout)
+    print(result.stdout) 
+    # terminal = $ cd /workspaces/Cafe_Roastery_store-operations/.venv/bin/pythonscripts/kaggle_search.py search "name of dataset"
 
     # command to view dataset details
     cmd_view = ["kaggle", "datasets", "view", "-d", "ryanalphaaugust/coffee-store-location/Coffee Store Location in Indonesia"]
