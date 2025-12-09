@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Cupping Sessions{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1><i class="bi bi-cup-straw"></i> Cupping Sessions</h1>
+    <a href="{{ url_for('cupping.new_session') }}" class="btn btn-primary"><i class="bi bi-plus"></i> New Session</a>
+</div>
+{% if sessions.items %}
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead><tr><th>Date</th><th>Batch</th><th>Score</th><th>Grade</th><th>Actions</th></tr></thead>
+        <tbody>
+            {% for session in sessions.items %}
+            <tr>
+                <td>{{ session.session_date.strftime('%Y-%m-%d') if session.session_date else 'N/A' }}</td>
+                <td>{{ session.batch.batch_id if session.batch else 'N/A' }}</td>
+                <td><strong>{{ "%.2f"|format(session.final_score) if session.final_score else 'N/A' }}</strong></td>
+                <td><span class="badge bg-success">{{ session.get_grade() }}</span></td>
+                <td><a href="{{ url_for('cupping.session_detail', id=session.id) }}" class="btn btn-sm btn-outline-primary"><i class="bi bi-eye"></i></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div class="alert alert-info">No cupping sessions yet. <a href="{{ url_for('cupping.new_session') }}">Create one</a></div>
+{% endif %}
+{% endblock %}

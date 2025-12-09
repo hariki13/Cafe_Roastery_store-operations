@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}{% if profile %}Edit{% else %}New{% endif %} Roast Profile{% endblock %}
+
+{% block content %}
+<h1><i class="bi bi-fire"></i> {% if profile %}Edit{% else %}New{% endif %} Roast Profile</h1>
+
+<div class="row">
+    <div class="col-lg-8">
+        <form method="POST">
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Profile Name *</label>
+                        <input type="text" class="form-control" id="name" name="name" 
+                               value="{{ profile.name if profile else '' }}" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" name="description" rows="3">{{ profile.description if profile else '' }}</textarea>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="bean_type" class="form-label">Bean Type</label>
+                            <input type="text" class="form-control" id="bean_type" name="bean_type" 
+                                   value="{{ profile.bean_type if profile else '' }}">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="origin" class="form-label">Origin</label>
+                            <input type="text" class="form-control" id="origin" name="origin" 
+                                   value="{{ profile.origin if profile else '' }}">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="processing_method" class="form-label">Processing Method</label>
+                        <select class="form-select" id="processing_method" name="processing_method">
+                            <option value="">Select...</option>
+                            <option value="Washed" {{ 'selected' if profile and profile.processing_method == 'Washed' else '' }}>Washed</option>
+                            <option value="Natural" {{ 'selected' if profile and profile.processing_method == 'Natural' else '' }}>Natural</option>
+                            <option value="Honey" {{ 'selected' if profile and profile.processing_method == 'Honey' else '' }}>Honey</option>
+                        </select>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="target_temp" class="form-label">Target Temperature (°C)</label>
+                            <input type="number" step="0.1" class="form-control" id="target_temp" name="target_temp" 
+                                   value="{{ profile.target_temp if profile else '' }}">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="target_time" class="form-label">Target Time (seconds)</label>
+                            <input type="number" class="form-control" id="target_time" name="target_time" 
+                                   value="{{ profile.target_time if profile else '' }}">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="target_roast_level" class="form-label">Target Roast Level</label>
+                            <select class="form-select" id="target_roast_level" name="target_roast_level">
+                                <option value="">Select...</option>
+                                <option value="light" {{ 'selected' if profile and profile.target_roast_level == 'light' else '' }}>Light</option>
+                                <option value="medium-light" {{ 'selected' if profile and profile.target_roast_level == 'medium-light' else '' }}>Medium-Light</option>
+                                <option value="medium" {{ 'selected' if profile and profile.target_roast_level == 'medium' else '' }}>Medium</option>
+                                <option value="medium-dark" {{ 'selected' if profile and profile.target_roast_level == 'medium-dark' else '' }}>Medium-Dark</option>
+                                <option value="dark" {{ 'selected' if profile and profile.target_roast_level == 'dark' else '' }}>Dark</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="development_time" class="form-label">Development Time (seconds)</label>
+                            <input type="number" class="form-control" id="development_time" name="development_time" 
+                                   value="{{ profile.development_time if profile else '' }}">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Save Profile
+                    </button>
+                    <a href="{{ url_for('roast.profiles') }}" class="btn btn-secondary">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

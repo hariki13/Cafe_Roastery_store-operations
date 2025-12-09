@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Batch Comparison Results{% endblock %}
+{% block content %}
+<h1><i class="bi bi-arrow-left-right"></i> Batch Comparison Results</h1>
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Property</th>
+                {% for item in batches %}<th>{{ item.batch.batch_id }}</th>{% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Date</strong></td>
+                {% for item in batches %}<td>{{ item.batch.roast_date.strftime('%Y-%m-%d') if item.batch.roast_date else 'N/A' }}</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Profile</strong></td>
+                {% for item in batches %}<td>{{ item.batch.profile.name if item.batch.profile else 'N/A' }}</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Green Weight</strong></td>
+                {% for item in batches %}<td>{{ item.batch.green_weight }}kg</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Roasted Weight</strong></td>
+                {% for item in batches %}<td>{{ item.batch.roasted_weight }}kg</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Weight Loss</strong></td>
+                {% for item in batches %}<td>{{ "%.2f"|format(item.batch.weight_loss_pct) if item.batch.weight_loss_pct else 'N/A' }}%</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Roast Level</strong></td>
+                {% for item in batches %}<td><span class="badge roast-{{ item.batch.roast_level }}">{{ item.batch.roast_level or 'N/A' }}</span></td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Cupping Score</strong></td>
+                {% for item in batches %}<td>{{ "%.2f"|format(item.cupping.final_score) if item.cupping else 'N/A' }}</td>{% endfor %}
+            </tr>
+            <tr>
+                <td><strong>Color (Agtron)</strong></td>
+                {% for item in batches %}<td>{{ item.color.agtron_value if item.color else 'N/A' }}</td>{% endfor %}
+            </tr>
+        </tbody>
+    </table>
+</div>
+<a href="{{ url_for('comparison.index') }}" class="btn btn-secondary">Back</a>
+{% endblock %}

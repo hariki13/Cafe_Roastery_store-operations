@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Login - Coffee Roasting Operations{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h2 class="card-title text-center mb-4">
+                    <i class="bi bi-cup-hot"></i> Login
+                </h2>
+                
+                <form method="POST" action="{{ url_for('auth.login') }}">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" required autofocus>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                        <label class="form-check-label" for="remember">Remember me</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-box-arrow-in-right"></i> Login
+                    </button>
+                </form>
+                
+                <hr>
+                
+                <p class="text-center mb-0">
+                    Don't have an account? <a href="{{ url_for('auth.register') }}">Register here</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="alert alert-info mt-3" role="alert">
+            <strong>Demo Credentials:</strong><br>
+            Admin: username: <code>admin</code>, password: <code>admin123</code><br>
+            Roaster: username: <code>roaster</code>, password: <code>roaster123</code>
+        </div>
+    </div>
+</div>
+{% endblock %}

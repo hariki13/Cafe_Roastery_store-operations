@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Batch Comparison{% endblock %}
+{% block content %}
+<h1><i class="bi bi-arrow-left-right"></i> Batch Comparison</h1>
+<form method="POST" action="{{ url_for('comparison.compare') }}">
+    <div class="card">
+        <div class="card-body">
+            <p>Select at least 2 batches to compare:</p>
+            {% if batches %}
+            {% for batch in batches %}
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="batch_ids[]" value="{{ batch.id }}" id="batch{{ batch.id }}">
+                <label class="form-check-label" for="batch{{ batch.id }}">
+                    {{ batch.batch_id }} - {{ batch.roast_date.strftime('%Y-%m-%d') if batch.roast_date else 'N/A' }}
+                </label>
+            </div>
+            {% endfor %}
+            {% else %}
+            <p class="text-muted">No batches available for comparison.</p>
+            {% endif %}
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Compare Selected Batches</button>
+        </div>
+    </div>
+</form>
+{% endblock %}
