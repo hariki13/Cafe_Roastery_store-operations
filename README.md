@@ -1,2 +1,3 @@
-# store-operations
-Coffeeshop,Specialty Coffeeshop,WARKOP System optimize the Operations
+# Coffee Bean Roast Analyzer
+
+AI-powered coffee roast classification system.

@@ -1,0 +1,2696 @@
+[
+  {
+    "file_name": "light_0000.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0035_20251206_115932.jpg"
+  },
+  {
+    "file_name": "light_0001.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0005_20251206_120453.jpg"
+  },
+  {
+    "file_name": "light_0002.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0020_20251206_120127.jpg"
+  },
+  {
+    "file_name": "light_0003.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0001_20251206_120130.jpg"
+  },
+  {
+    "file_name": "light_0004.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103750_0046_20251206_120414.jpg"
+  },
+  {
+    "file_name": "light_0005.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0002_20251206_120633.jpg"
+  },
+  {
+    "file_name": "light_0006.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0008_20251206_120145.jpg"
+  },
+  {
+    "file_name": "light_0007.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0037_20251206_120303.jpg"
+  },
+  {
+    "file_name": "light_0008.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0027_20251206_120615.jpg"
+  },
+  {
+    "file_name": "light_0009.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0042_20251206_120628.jpg"
+  },
+  {
+    "file_name": "light_0010.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103750_0044_20251206_120324.jpg"
+  },
+  {
+    "file_name": "light_0011.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0045_20251206_115832.jpg"
+  },
+  {
+    "file_name": "light_0012.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0036_20251206_120612.jpg"
+  },
+  {
+    "file_name": "light_0013.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0024_20251206_120432.jpg"
+  },
+  {
+    "file_name": "light_0014.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0012_20251206_120252.jpg"
+  },
+  {
+    "file_name": "light_0015.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0004_20251206_115934.jpg"
+  },
+  {
+    "file_name": "light_0016.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0029_20251206_120451.jpg"
+  },
+  {
+    "file_name": "light_0017.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0005_20251206_120453.jpg"
+  },
+  {
+    "file_name": "light_0018.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0021_20251206_120626.jpg"
+  },
+  {
+    "file_name": "light_0019.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0041_20251206_120340.jpg"
+  },
+  {
+    "file_name": "light_0020.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0031_20251206_120020.jpg"
+  },
+  {
+    "file_name": "light_0021.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0013_20251206_120724.jpg"
+  },
+  {
+    "file_name": "light_0022.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0016_20251206_120614.jpg"
+  },
+  {
+    "file_name": "light_0023.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0043_20251206_120530.jpg"
+  },
+  {
+    "file_name": "light_0024.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0013_20251206_120724.jpg"
+  },
+  {
+    "file_name": "light_0025.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0009_20251206_120527.jpg"
+  },
+  {
+    "file_name": "light_0026.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0024_20251206_120432.jpg"
+  },
+  {
+    "file_name": "light_0027.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0046_20251206_120414.jpg"
+  },
+  {
+    "file_name": "light_0028.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0039_20251206_120512.jpg"
+  },
+  {
+    "file_name": "light_0029.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0034_20251206_120430.jpg"
+  },
+  {
+    "file_name": "light_0030.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0038_20251206_120338.jpg"
+  },
+  {
+    "file_name": "light_0031.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0002_20251206_120633.jpg"
+  },
+  {
+    "file_name": "light_0032.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0018_20251206_120511.jpg"
+  },
+  {
+    "file_name": "light_0033.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0040_20251206_120017.jpg"
+  },
+  {
+    "file_name": "light_0034.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0017_20251206_115817.jpg"
+  },
+  {
+    "file_name": "light_0035.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0015_20251206_115913.jpg"
+  },
+  {
+    "file_name": "light_0036.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103750_0048_20251206_120321.jpg"
+  },
+  {
+    "file_name": "light_0037.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0037_20251206_120303.jpg"
+  },
+  {
+    "file_name": "light_0038.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103750_0045_20251206_115832.jpg"
+  },
+  {
+    "file_name": "light_0039.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0042_20251206_120628.jpg"
+  },
+  {
+    "file_name": "light_0040.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0019_20251206_120645.jpg"
+  },
+  {
+    "file_name": "light_0041.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0017_20251206_115817.jpg"
+  },
+  {
+    "file_name": "light_0042.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0020_20251206_120127.jpg"
+  },
+  {
+    "file_name": "light_0043.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0015_20251206_115913.jpg"
+  },
+  {
+    "file_name": "light_0044.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0031_20251206_120020.jpg"
+  },
+  {
+    "file_name": "light_0045.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0007_20251206_115841.jpg"
+  },
+  {
+    "file_name": "light_0046.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0019_20251206_120645.jpg"
+  },
+  {
+    "file_name": "light_0047.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0039_20251206_120512.jpg"
+  },
+  {
+    "file_name": "light_0048.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0043_20251206_120530.jpg"
+  },
+  {
+    "file_name": "light_0049.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0023_20251206_120248.jpg"
+  },
+  {
+    "file_name": "light_0050.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0026_20251206_120109.jpg"
+  },
+  {
+    "file_name": "light_0051.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0018_20251206_120511.jpg"
+  },
+  {
+    "file_name": "light_0052.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0003_20251206_120111.jpg"
+  },
+  {
+    "file_name": "light_0053.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0023_20251206_120248.jpg"
+  },
+  {
+    "file_name": "light_0054.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0038_20251206_120338.jpg"
+  },
+  {
+    "file_name": "light_0055.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0021_20251206_120626.jpg"
+  },
+  {
+    "file_name": "light_0056.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0030_20251206_120129.jpg"
+  },
+  {
+    "file_name": "light_0057.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0029_20251206_120451.jpg"
+  },
+  {
+    "file_name": "light_0058.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0025_20251206_120307.jpg"
+  },
+  {
+    "file_name": "light_0059.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0044_20251206_120324.jpg"
+  },
+  {
+    "file_name": "light_0060.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0028_20251206_120305.jpg"
+  },
+  {
+    "file_name": "light_0061.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103758_0035_20251206_115932.jpg"
+  },
+  {
+    "file_name": "light_0062.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0022_20251206_120250.jpg"
+  },
+  {
+    "file_name": "light_0063.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0036_20251206_120612.jpg"
+  },
+  {
+    "file_name": "light_0064.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103748_0001_20251206_120130.jpg"
+  },
+  {
+    "file_name": "light_0065.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0004_20251206_115934.jpg"
+  },
+  {
+    "file_name": "light_0066.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103757_0026_20251206_120109.jpg"
+  },
+  {
+    "file_name": "light_0067.jpg",
+    "roast_level": "light",
+    "label": 0,
+    "original_path": "data/raw/light/light_20251206_103749_0034_20251206_120430.jpg"
+  },
+  {
+    "file_name": "light_medium_0068.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0024_20251206_140402.jpg"
+  },
+  {
+    "file_name": "light_medium_0069.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0084_20251206_135617.jpg"
+  },
+  {
+    "file_name": "light_medium_0070.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0033_20251206_140230.jpg"
+  },
+  {
+    "file_name": "light_medium_0071.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0018_20251206_140359.jpg"
+  },
+  {
+    "file_name": "light_medium_0072.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0017_20251206_135457.jpg"
+  },
+  {
+    "file_name": "light_medium_0073.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0067_20251206_140239.jpg"
+  },
+  {
+    "file_name": "light_medium_0074.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0034_20251206_140156.jpg"
+  },
+  {
+    "file_name": "light_medium_0075.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0044_20251206_135416.jpg"
+  },
+  {
+    "file_name": "light_medium_0076.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0101_20251206_140237.jpg"
+  },
+  {
+    "file_name": "light_medium_0077.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0088_20251206_140143.jpg"
+  },
+  {
+    "file_name": "light_medium_0078.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0068_20251206_135403.jpg"
+  },
+  {
+    "file_name": "light_medium_0079.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0052_20251206_135619.jpg"
+  },
+  {
+    "file_name": "light_medium_0080.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0010_20251206_135401.jpg"
+  },
+  {
+    "file_name": "light_medium_0081.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0013_20251206_140108.jpg"
+  },
+  {
+    "file_name": "light_medium_0082.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0103_20251206_140205.jpg"
+  },
+  {
+    "file_name": "light_medium_0083.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0049_20251206_140137.jpg"
+  },
+  {
+    "file_name": "light_medium_0084.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0057_20251206_135417.jpg"
+  },
+  {
+    "file_name": "light_medium_0085.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0102_20251206_140210.jpg"
+  },
+  {
+    "file_name": "light_medium_0086.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0051_20251206_140122.jpg"
+  },
+  {
+    "file_name": "light_medium_0087.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0098_20251206_140335.jpg"
+  },
+  {
+    "file_name": "light_medium_0088.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0027_20251206_135819.jpg"
+  },
+  {
+    "file_name": "light_medium_0089.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0030_20251206_135826.jpg"
+  },
+  {
+    "file_name": "light_medium_0090.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0073_20251206_140337.jpg"
+  },
+  {
+    "file_name": "light_medium_0091.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0096_20251206_140235.jpg"
+  },
+  {
+    "file_name": "light_medium_0092.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0097_20251206_140341.jpg"
+  },
+  {
+    "file_name": "light_medium_0093.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0085_20251206_135851.jpg"
+  },
+  {
+    "file_name": "light_medium_0094.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0042_20251206_140231.jpg"
+  },
+  {
+    "file_name": "light_medium_0095.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114543_0006_20251206_140220.jpg"
+  },
+  {
+    "file_name": "light_medium_0096.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0016_20251206_140151.jpg"
+  },
+  {
+    "file_name": "light_medium_0097.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0031_20251206_135523.jpg"
+  },
+  {
+    "file_name": "light_medium_0098.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0046_20251206_135830.jpg"
+  },
+  {
+    "file_name": "light_medium_0099.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0076_20251206_140332.jpg"
+  },
+  {
+    "file_name": "light_medium_0100.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0009_20251206_135847.jpg"
+  },
+  {
+    "file_name": "light_medium_0101.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0048_20251206_135835.jpg"
+  },
+  {
+    "file_name": "light_medium_0102.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0039_20251206_140124.jpg"
+  },
+  {
+    "file_name": "light_medium_0103.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0056_20251206_140240.jpg"
+  },
+  {
+    "file_name": "light_medium_0104.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0023_20251206_140135.jpg"
+  },
+  {
+    "file_name": "light_medium_0105.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114543_0004_20251206_135644.jpg"
+  },
+  {
+    "file_name": "light_medium_0106.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0036_20251206_140400.jpg"
+  },
+  {
+    "file_name": "light_medium_0107.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0025_20251206_135509.jpg"
+  },
+  {
+    "file_name": "light_medium_0108.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0093_20251206_135554.jpg"
+  },
+  {
+    "file_name": "light_medium_0109.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0072_20251206_135545.jpg"
+  },
+  {
+    "file_name": "light_medium_0110.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0099_20251206_135754.jpg"
+  },
+  {
+    "file_name": "light_medium_0111.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0063_20251206_140111.jpg"
+  },
+  {
+    "file_name": "light_medium_0112.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0038_20251206_135845.jpg"
+  },
+  {
+    "file_name": "light_medium_0113.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0092_20251206_140217.jpg"
+  },
+  {
+    "file_name": "light_medium_0114.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0040_20251206_140204.jpg"
+  },
+  {
+    "file_name": "light_medium_0115.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0022_20251206_140209.jpg"
+  },
+  {
+    "file_name": "light_medium_0116.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0078_20251206_140120.jpg"
+  },
+  {
+    "file_name": "light_medium_0117.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0037_20251206_135732.jpg"
+  },
+  {
+    "file_name": "light_medium_0118.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0082_20251206_135720.jpg"
+  },
+  {
+    "file_name": "light_medium_0119.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0053_20251206_135605.jpg"
+  },
+  {
+    "file_name": "light_medium_0120.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0075_20251206_135519.jpg"
+  },
+  {
+    "file_name": "light_medium_0121.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0064_20251206_140357.jpg"
+  },
+  {
+    "file_name": "light_medium_0122.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0091_20251206_140207.jpg"
+  },
+  {
+    "file_name": "light_medium_0123.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114543_0002_20251206_135741.jpg"
+  },
+  {
+    "file_name": "light_medium_0124.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0019_20251206_140153.jpg"
+  },
+  {
+    "file_name": "light_medium_0125.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0083_20251206_135751.jpg"
+  },
+  {
+    "file_name": "light_medium_0126.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114544_0021_20251206_135756.jpg"
+  },
+  {
+    "file_name": "light_medium_0127.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0054_20251206_140222.jpg"
+  },
+  {
+    "file_name": "light_medium_0128.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0065_20251206_140147.jpg"
+  },
+  {
+    "file_name": "light_medium_0129.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114547_0100_20251206_135556.jpg"
+  },
+  {
+    "file_name": "light_medium_0130.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0028_20251206_135821.jpg"
+  },
+  {
+    "file_name": "light_medium_0131.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0087_20251206_135455.jpg"
+  },
+  {
+    "file_name": "light_medium_0132.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0029_20251206_135725.jpg"
+  },
+  {
+    "file_name": "light_medium_0133.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0074_20251206_135520.jpg"
+  },
+  {
+    "file_name": "light_medium_0134.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0050_20251206_135738.jpg"
+  },
+  {
+    "file_name": "light_medium_0135.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0094_20251206_135849.jpg"
+  },
+  {
+    "file_name": "light_medium_0136.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0047_20251206_135753.jpg"
+  },
+  {
+    "file_name": "light_medium_0137.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0059_20251206_140404.jpg"
+  },
+  {
+    "file_name": "light_medium_0138.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114545_0045_20251206_135507.jpg"
+  },
+  {
+    "file_name": "light_medium_0139.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0060_20251206_135836.jpg"
+  },
+  {
+    "file_name": "light_medium_0140.jpg",
+    "roast_level": "light_medium",
+    "label": 1,
+    "original_path": "data/raw/light_medium/light_medium_20251206_114546_0079_20251206_140130.jpg"
+  },
+  {
+    "file_name": "medium_0141.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0020_20251206_145438.jpg"
+  },
+  {
+    "file_name": "medium_0142.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0026_20251206_145700.jpg"
+  },
+  {
+    "file_name": "medium_0143.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0077_20251206_145920.jpg"
+  },
+  {
+    "file_name": "medium_0144.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0055_20251206_145655.jpg"
+  },
+  {
+    "file_name": "medium_0145.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0035_20251206_145753.jpg"
+  },
+  {
+    "file_name": "medium_0146.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0095_20251206_150002.jpg"
+  },
+  {
+    "file_name": "medium_0147.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0006_20251206_145705.jpg"
+  },
+  {
+    "file_name": "medium_0148.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0002_20251206_145544.jpg"
+  },
+  {
+    "file_name": "medium_0149.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0102_20251206_145853.jpg"
+  },
+  {
+    "file_name": "medium_0150.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0023_20251206_145905.jpg"
+  },
+  {
+    "file_name": "medium_0151.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0100_20251206_145550.jpg"
+  },
+  {
+    "file_name": "medium_0152.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0069_20251206_145447.jpg"
+  },
+  {
+    "file_name": "medium_0153.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0092_20251206_145950.jpg"
+  },
+  {
+    "file_name": "medium_0154.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0081_20251206_145444.jpg"
+  },
+  {
+    "file_name": "medium_0155.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0056_20251206_145733.jpg"
+  },
+  {
+    "file_name": "medium_0156.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0074_20251206_145856.jpg"
+  },
+  {
+    "file_name": "medium_0157.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0021_20251206_145752.jpg"
+  },
+  {
+    "file_name": "medium_0158.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0051_20251206_145625.jpg"
+  },
+  {
+    "file_name": "medium_0159.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0003_20251206_150108.jpg"
+  },
+  {
+    "file_name": "medium_0160.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0071_20251206_150000.jpg"
+  },
+  {
+    "file_name": "medium_0161.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0096_20251206_145446.jpg"
+  },
+  {
+    "file_name": "medium_0162.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0050_20251206_150006.jpg"
+  },
+  {
+    "file_name": "medium_0163.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0031_20251206_145436.jpg"
+  },
+  {
+    "file_name": "medium_0164.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0097_20251206_150046.jpg"
+  },
+  {
+    "file_name": "medium_0165.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0104_20251206_145627.jpg"
+  },
+  {
+    "file_name": "medium_0166.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0101_20251206_145653.jpg"
+  },
+  {
+    "file_name": "medium_0167.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0038_20251206_145538.jpg"
+  },
+  {
+    "file_name": "medium_0168.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0047_20251206_145453.jpg"
+  },
+  {
+    "file_name": "medium_0169.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0024_20251206_145858.jpg"
+  },
+  {
+    "file_name": "medium_0170.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0072_20251206_145922.jpg"
+  },
+  {
+    "file_name": "medium_0171.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0089_20251206_150111.jpg"
+  },
+  {
+    "file_name": "medium_0172.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0085_20251206_145620.jpg"
+  },
+  {
+    "file_name": "medium_0173.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0079_20251206_145706.jpg"
+  },
+  {
+    "file_name": "medium_0174.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0027_20251206_145216.jpg"
+  },
+  {
+    "file_name": "medium_0175.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0061_20251206_145909.jpg"
+  },
+  {
+    "file_name": "medium_0176.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0075_20251206_145628.jpg"
+  },
+  {
+    "file_name": "medium_0177.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0062_20251206_145657.jpg"
+  },
+  {
+    "file_name": "medium_0178.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0011_20251206_145534.jpg"
+  },
+  {
+    "file_name": "medium_0179.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0070_20251206_150118.jpg"
+  },
+  {
+    "file_name": "medium_0180.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0098_20251206_150105.jpg"
+  },
+  {
+    "file_name": "medium_0181.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0000_20251206_150120.jpg"
+  },
+  {
+    "file_name": "medium_0182.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0084_20251206_145456.jpg"
+  },
+  {
+    "file_name": "medium_0183.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0094_20251206_150102.jpg"
+  },
+  {
+    "file_name": "medium_0184.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0025_20251206_145449.jpg"
+  },
+  {
+    "file_name": "medium_0185.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0052_20251206_145532.jpg"
+  },
+  {
+    "file_name": "medium_0186.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0045_20251206_145734.jpg"
+  },
+  {
+    "file_name": "medium_0187.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0063_20251206_145953.jpg"
+  },
+  {
+    "file_name": "medium_0188.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0080_20251206_145547.jpg"
+  },
+  {
+    "file_name": "medium_0189.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0008_20251206_150103.jpg"
+  },
+  {
+    "file_name": "medium_0190.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0019_20251206_150122.jpg"
+  },
+  {
+    "file_name": "medium_0191.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0034_20251206_145938.jpg"
+  },
+  {
+    "file_name": "medium_0192.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0039_20251206_150034.jpg"
+  },
+  {
+    "file_name": "medium_0193.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0086_20251206_150044.jpg"
+  },
+  {
+    "file_name": "medium_0194.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0046_20251206_145934.jpg"
+  },
+  {
+    "file_name": "medium_0195.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0007_20251206_145659.jpg"
+  },
+  {
+    "file_name": "medium_0196.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0066_20251206_145756.jpg"
+  },
+  {
+    "file_name": "medium_0197.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0107_20251206_145433.jpg"
+  },
+  {
+    "file_name": "medium_0198.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0109_20251206_145918.jpg"
+  },
+  {
+    "file_name": "medium_0199.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0015_20251206_145642.jpg"
+  },
+  {
+    "file_name": "medium_0200.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0048_20251206_145549.jpg"
+  },
+  {
+    "file_name": "medium_0201.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0042_20251206_150059.jpg"
+  },
+  {
+    "file_name": "medium_0202.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0029_20251206_145755.jpg"
+  },
+  {
+    "file_name": "medium_0203.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0018_20251206_145911.jpg"
+  },
+  {
+    "file_name": "medium_0204.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0032_20251206_150115.jpg"
+  },
+  {
+    "file_name": "medium_0205.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0044_20251206_150004.jpg"
+  },
+  {
+    "file_name": "medium_0206.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0076_20251206_145640.jpg"
+  },
+  {
+    "file_name": "medium_0207.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0088_20251206_145946.jpg"
+  },
+  {
+    "file_name": "medium_0208.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0078_20251206_145852.jpg"
+  },
+  {
+    "file_name": "medium_0209.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0049_20251206_145923.jpg"
+  },
+  {
+    "file_name": "medium_0210.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0001_20251206_145714.jpg"
+  },
+  {
+    "file_name": "medium_0211.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0033_20251206_145926.jpg"
+  },
+  {
+    "file_name": "medium_0212.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183743_0065_20251206_145637.jpg"
+  },
+  {
+    "file_name": "medium_0213.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0091_20251206_145440.jpg"
+  },
+  {
+    "file_name": "medium_0214.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0099_20251206_145702.jpg"
+  },
+  {
+    "file_name": "medium_0215.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183741_0009_20251206_145948.jpg"
+  },
+  {
+    "file_name": "medium_0216.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183742_0036_20251206_145925.jpg"
+  },
+  {
+    "file_name": "medium_0217.jpg",
+    "roast_level": "medium",
+    "label": 2,
+    "original_path": "data/raw/medium/medium_20251206_183744_0090_20251206_145546.jpg"
+  },
+  {
+    "file_name": "medium_dark_0218.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0087_20251207_114701.jpg"
+  },
+  {
+    "file_name": "medium_dark_0219.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0008_20251207_114856.jpg"
+  },
+  {
+    "file_name": "medium_dark_0220.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0096_20251207_115008.jpg"
+  },
+  {
+    "file_name": "medium_dark_0221.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0064_20251207_114704.jpg"
+  },
+  {
+    "file_name": "medium_dark_0222.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104850_0108_20251207_115011.jpg"
+  },
+  {
+    "file_name": "medium_dark_0223.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0017_20251207_115225.jpg"
+  },
+  {
+    "file_name": "medium_dark_0224.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0014_20251206_150122.jpg"
+  },
+  {
+    "file_name": "medium_dark_0225.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0065_20251207_115317.jpg"
+  },
+  {
+    "file_name": "medium_dark_0226.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0061_20251206_150118.jpg"
+  },
+  {
+    "file_name": "medium_dark_0227.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0011_20251207_115159.jpg"
+  },
+  {
+    "file_name": "medium_dark_0228.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0051_20251207_114956.jpg"
+  },
+  {
+    "file_name": "medium_dark_0229.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0045_20251207_115242.jpg"
+  },
+  {
+    "file_name": "medium_dark_0230.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0019_20251207_114809.jpg"
+  },
+  {
+    "file_name": "medium_dark_0231.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0009_20251207_115004.jpg"
+  },
+  {
+    "file_name": "medium_dark_0232.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0082_20251207_115240.jpg"
+  },
+  {
+    "file_name": "medium_dark_0233.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0023_20251207_115203.jpg"
+  },
+  {
+    "file_name": "medium_dark_0234.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0092_20251207_114724.jpg"
+  },
+  {
+    "file_name": "medium_dark_0235.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0063_20251207_115319.jpg"
+  },
+  {
+    "file_name": "medium_dark_0236.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0104_20251207_115309.jpg"
+  },
+  {
+    "file_name": "medium_dark_0237.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0091_20251207_114850.jpg"
+  },
+  {
+    "file_name": "medium_dark_0238.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0101_20251207_115138.jpg"
+  },
+  {
+    "file_name": "medium_dark_0239.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0027_20251207_114715.jpg"
+  },
+  {
+    "file_name": "medium_dark_0240.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0047_20251207_115415.jpg"
+  },
+  {
+    "file_name": "medium_dark_0241.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0036_20251207_115315.jpg"
+  },
+  {
+    "file_name": "medium_dark_0242.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0031_20251207_114805.jpg"
+  },
+  {
+    "file_name": "medium_dark_0243.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0022_20251207_115020.jpg"
+  },
+  {
+    "file_name": "medium_dark_0244.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0069_20251207_115148.jpg"
+  },
+  {
+    "file_name": "medium_dark_0245.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0016_20251207_114807.jpg"
+  },
+  {
+    "file_name": "medium_dark_0246.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104846_0001_20251207_114757.jpg"
+  },
+  {
+    "file_name": "medium_dark_0247.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0052_20251207_115405.jpg"
+  },
+  {
+    "file_name": "medium_dark_0248.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0083_20251207_114945.jpg"
+  },
+  {
+    "file_name": "medium_dark_0249.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0043_20251207_115304.jpg"
+  },
+  {
+    "file_name": "medium_dark_0250.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0054_20251207_115322.jpg"
+  },
+  {
+    "file_name": "medium_dark_0251.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0102_20251207_114731.jpg"
+  },
+  {
+    "file_name": "medium_dark_0252.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0103_20251207_114843.jpg"
+  },
+  {
+    "file_name": "medium_dark_0253.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104850_0109_20251207_114929.jpg"
+  },
+  {
+    "file_name": "medium_dark_0254.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0048_20251207_115144.jpg"
+  },
+  {
+    "file_name": "medium_dark_0255.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0068_20251207_115227.jpg"
+  },
+  {
+    "file_name": "medium_dark_0256.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0024_20251207_115311.jpg"
+  },
+  {
+    "file_name": "medium_dark_0257.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104850_0106_20251207_115025.jpg"
+  },
+  {
+    "file_name": "medium_dark_0258.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0086_20251207_114906.jpg"
+  },
+  {
+    "file_name": "medium_dark_0259.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0034_20251207_115157.jpg"
+  },
+  {
+    "file_name": "medium_dark_0260.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0055_20251207_115021.jpg"
+  },
+  {
+    "file_name": "medium_dark_0261.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0038_20251207_114931.jpg"
+  },
+  {
+    "file_name": "medium_dark_0262.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0058_20251207_115418.jpg"
+  },
+  {
+    "file_name": "medium_dark_0263.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0090_20251207_115439.jpg"
+  },
+  {
+    "file_name": "medium_dark_0264.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0066_20251207_114753.jpg"
+  },
+  {
+    "file_name": "medium_dark_0265.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0095_20251207_114717.jpg"
+  },
+  {
+    "file_name": "medium_dark_0266.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0072_20251207_114719.jpg"
+  },
+  {
+    "file_name": "medium_dark_0267.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0033_20251207_115345.jpg"
+  },
+  {
+    "file_name": "medium_dark_0268.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0098_20251207_115408.jpg"
+  },
+  {
+    "file_name": "medium_dark_0269.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0041_20251207_114947.jpg"
+  },
+  {
+    "file_name": "medium_dark_0270.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0018_20251207_114927.jpg"
+  },
+  {
+    "file_name": "medium_dark_0271.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0035_20251207_115303.jpg"
+  },
+  {
+    "file_name": "medium_dark_0272.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0094_20251207_115413.jpg"
+  },
+  {
+    "file_name": "medium_dark_0273.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0077_20251207_115443.jpg"
+  },
+  {
+    "file_name": "medium_dark_0274.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104850_0105_20251207_115258.jpg"
+  },
+  {
+    "file_name": "medium_dark_0275.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0021_20251207_115435.jpg"
+  },
+  {
+    "file_name": "medium_dark_0276.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0097_20251207_114924.jpg"
+  },
+  {
+    "file_name": "medium_dark_0277.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0089_20251207_114713.jpg"
+  },
+  {
+    "file_name": "medium_dark_0278.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0056_20251207_115029.jpg"
+  },
+  {
+    "file_name": "medium_dark_0279.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0074_20251207_114910.jpg"
+  },
+  {
+    "file_name": "medium_dark_0280.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0005_20251207_114811.jpg"
+  },
+  {
+    "file_name": "medium_dark_0281.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0013_20251207_114755.jpg"
+  },
+  {
+    "file_name": "medium_dark_0282.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0059_20251207_115301.jpg"
+  },
+  {
+    "file_name": "medium_dark_0283.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0007_20251207_115142.jpg"
+  },
+  {
+    "file_name": "medium_dark_0284.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0078_20251207_114804.jpg"
+  },
+  {
+    "file_name": "medium_dark_0285.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0028_20251207_115023.jpg"
+  },
+  {
+    "file_name": "medium_dark_0286.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104846_0000_20251206_150120.jpg"
+  },
+  {
+    "file_name": "medium_dark_0287.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0067_20251207_114813.jpg"
+  },
+  {
+    "file_name": "medium_dark_0288.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0039_20251207_114854.jpg"
+  },
+  {
+    "file_name": "medium_dark_0289.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0042_20251207_115006.jpg"
+  },
+  {
+    "file_name": "medium_dark_0290.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104847_0020_20251207_114938.jpg"
+  },
+  {
+    "file_name": "medium_dark_0291.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0084_20251207_115256.jpg"
+  },
+  {
+    "file_name": "medium_dark_0292.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104849_0073_20251207_114901.jpg"
+  },
+  {
+    "file_name": "medium_dark_0293.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0037_20251207_114841.jpg"
+  },
+  {
+    "file_name": "medium_dark_0294.jpg",
+    "roast_level": "medium_dark",
+    "label": 3,
+    "original_path": "data/raw/medium_dark/medium_dark_20251207_104848_0060_20251207_115009.jpg"
+  },
+  {
+    "file_name": "dark_0295.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0107_20251207_131243.jpg"
+  },
+  {
+    "file_name": "dark_0296.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0003_20251207_131515.jpg"
+  },
+  {
+    "file_name": "dark_0297.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0105_20251207_131144.jpg"
+  },
+  {
+    "file_name": "dark_0298.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0036_20251207_131209.jpg"
+  },
+  {
+    "file_name": "dark_0299.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0070_20251207_131405.jpg"
+  },
+  {
+    "file_name": "dark_0300.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0027_20251207_130937.jpg"
+  },
+  {
+    "file_name": "dark_0301.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0090_20251207_131001.jpg"
+  },
+  {
+    "file_name": "dark_0302.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0028_20251207_131225.jpg"
+  },
+  {
+    "file_name": "dark_0303.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0069_20251207_130954.jpg"
+  },
+  {
+    "file_name": "dark_0304.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0056_20251207_130904.jpg"
+  },
+  {
+    "file_name": "dark_0305.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0034_20251207_130915.jpg"
+  },
+  {
+    "file_name": "dark_0306.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0006_20251207_130959.jpg"
+  },
+  {
+    "file_name": "dark_0307.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0064_20251207_131438.jpg"
+  },
+  {
+    "file_name": "dark_0308.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0035_20251207_131215.jpg"
+  },
+  {
+    "file_name": "dark_0309.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0052_20251207_131203.jpg"
+  },
+  {
+    "file_name": "dark_0310.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0005_20251207_130909.jpg"
+  },
+  {
+    "file_name": "dark_0311.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0100_20251207_130911.jpg"
+  },
+  {
+    "file_name": "dark_0312.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0050_20251207_131507.jpg"
+  },
+  {
+    "file_name": "dark_0313.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0041_20251207_130902.jpg"
+  },
+  {
+    "file_name": "dark_0314.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0013_20251207_131527.jpg"
+  },
+  {
+    "file_name": "dark_0315.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0099_20251207_131511.jpg"
+  },
+  {
+    "file_name": "dark_0316.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0037_20251207_131500.jpg"
+  },
+  {
+    "file_name": "dark_0317.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0078_20251207_131147.jpg"
+  },
+  {
+    "file_name": "dark_0318.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0096_20251207_131403.jpg"
+  },
+  {
+    "file_name": "dark_0319.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0032_20251207_131503.jpg"
+  },
+  {
+    "file_name": "dark_0320.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0014_20251207_131229.jpg"
+  },
+  {
+    "file_name": "dark_0321.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0015_20251207_131118.jpg"
+  },
+  {
+    "file_name": "dark_0322.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0091_20251207_131112.jpg"
+  },
+  {
+    "file_name": "dark_0323.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0040_20251207_131409.jpg"
+  },
+  {
+    "file_name": "dark_0324.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0055_20251207_130855.jpg"
+  },
+  {
+    "file_name": "dark_0325.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0081_20251207_131458.jpg"
+  },
+  {
+    "file_name": "dark_0326.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0109_20251207_131436.jpg"
+  },
+  {
+    "file_name": "dark_0327.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0089_20251207_131414.jpg"
+  },
+  {
+    "file_name": "dark_0328.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0053_20251207_131425.jpg"
+  },
+  {
+    "file_name": "dark_0329.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0074_20251207_131232.jpg"
+  },
+  {
+    "file_name": "dark_0330.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0058_20251207_131003.jpg"
+  },
+  {
+    "file_name": "dark_0331.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0097_20251207_131434.jpg"
+  },
+  {
+    "file_name": "dark_0332.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0076_20251207_131220.jpg"
+  },
+  {
+    "file_name": "dark_0333.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0077_20251207_131523.jpg"
+  },
+  {
+    "file_name": "dark_0334.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0046_20251207_131416.jpg"
+  },
+  {
+    "file_name": "dark_0335.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0063_20251207_130908.jpg"
+  },
+  {
+    "file_name": "dark_0336.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0033_20251207_130924.jpg"
+  },
+  {
+    "file_name": "dark_0337.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0011_20251207_131157.jpg"
+  },
+  {
+    "file_name": "dark_0338.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0000_20251207_131447.jpg"
+  },
+  {
+    "file_name": "dark_0339.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0104_20251207_131127.jpg"
+  },
+  {
+    "file_name": "dark_0340.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0071_20251207_131420.jpg"
+  },
+  {
+    "file_name": "dark_0341.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0057_20251207_131421.jpg"
+  },
+  {
+    "file_name": "dark_0342.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0059_20251207_131224.jpg"
+  },
+  {
+    "file_name": "dark_0343.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0073_20251207_131234.jpg"
+  },
+  {
+    "file_name": "dark_0344.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0101_20251207_131133.jpg"
+  },
+  {
+    "file_name": "dark_0345.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0060_20251207_131149.jpg"
+  },
+  {
+    "file_name": "dark_0346.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0002_20251207_131005.jpg"
+  },
+  {
+    "file_name": "dark_0347.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0047_20251207_130930.jpg"
+  },
+  {
+    "file_name": "dark_0348.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0054_20251207_130935.jpg"
+  },
+  {
+    "file_name": "dark_0349.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0072_20251207_131811.jpg"
+  },
+  {
+    "file_name": "dark_0350.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0019_20251207_131408.jpg"
+  },
+  {
+    "file_name": "dark_0351.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0080_20251207_130933.jpg"
+  },
+  {
+    "file_name": "dark_0352.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0098_20251207_131245.jpg"
+  },
+  {
+    "file_name": "dark_0353.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0044_20251207_131505.jpg"
+  },
+  {
+    "file_name": "dark_0354.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0065_20251207_131156.jpg"
+  },
+  {
+    "file_name": "dark_0355.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0108_20251207_131501.jpg"
+  },
+  {
+    "file_name": "dark_0356.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0088_20251207_131428.jpg"
+  },
+  {
+    "file_name": "dark_0357.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0093_20251207_131007.jpg"
+  },
+  {
+    "file_name": "dark_0358.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0079_20251207_131514.jpg"
+  },
+  {
+    "file_name": "dark_0359.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0024_20251207_131213.jpg"
+  },
+  {
+    "file_name": "dark_0360.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0009_20251207_130939.jpg"
+  },
+  {
+    "file_name": "dark_0361.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0004_20251207_131207.jpg"
+  },
+  {
+    "file_name": "dark_0362.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0038_20251207_131125.jpg"
+  },
+  {
+    "file_name": "dark_0363.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0066_20251207_131237.jpg"
+  },
+  {
+    "file_name": "dark_0364.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0102_20251207_131444.jpg"
+  },
+  {
+    "file_name": "dark_0365.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105900_0012_20251207_131426.jpg"
+  },
+  {
+    "file_name": "dark_0366.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0023_20251207_131116.jpg"
+  },
+  {
+    "file_name": "dark_0367.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0084_20251207_130906.jpg"
+  },
+  {
+    "file_name": "dark_0368.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0087_20251207_130851.jpg"
+  },
+  {
+    "file_name": "dark_0369.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105903_0082_20251207_131412.jpg"
+  },
+  {
+    "file_name": "dark_0370.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105902_0068_20251207_131211.jpg"
+  },
+  {
+    "file_name": "dark_0371.jpg",
+    "roast_level": "dark",
+    "label": 4,
+    "original_path": "data/raw/dark/very_dark_20251207_105901_0018_20251207_131241.jpg"
+  },
+  {
+    "file_name": "very_dark_0372.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0082_20251208_120322.jpg"
+  },
+  {
+    "file_name": "very_dark_0373.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0096_20251208_120646.jpg"
+  },
+  {
+    "file_name": "very_dark_0374.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0001_20251208_120612.jpg"
+  },
+  {
+    "file_name": "very_dark_0375.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0078_20251208_120352.jpg"
+  },
+  {
+    "file_name": "very_dark_0376.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0070_20251208_120347.jpg"
+  },
+  {
+    "file_name": "very_dark_0377.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0042_20251208_120415.jpg"
+  },
+  {
+    "file_name": "very_dark_0378.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0003_20251208_120311.jpg"
+  },
+  {
+    "file_name": "very_dark_0379.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0035_20251208_120033.jpg"
+  },
+  {
+    "file_name": "very_dark_0380.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0076_20251208_120353.jpg"
+  },
+  {
+    "file_name": "very_dark_0381.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0107_20251208_120234.jpg"
+  },
+  {
+    "file_name": "very_dark_0382.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0092_20251208_120524.jpg"
+  },
+  {
+    "file_name": "very_dark_0383.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0033_20251208_120038.jpg"
+  },
+  {
+    "file_name": "very_dark_0384.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0031_20251208_120421.jpg"
+  },
+  {
+    "file_name": "very_dark_0385.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0043_20251208_120416.jpg"
+  },
+  {
+    "file_name": "very_dark_0386.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0053_20251208_120526.jpg"
+  },
+  {
+    "file_name": "very_dark_0387.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0108_20251208_120315.jpg"
+  },
+  {
+    "file_name": "very_dark_0388.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0054_20251208_120635.jpg"
+  },
+  {
+    "file_name": "very_dark_0389.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0060_20251208_120547.jpg"
+  },
+  {
+    "file_name": "very_dark_0390.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0080_20251208_120149.jpg"
+  },
+  {
+    "file_name": "very_dark_0391.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0067_20251208_120350.jpg"
+  },
+  {
+    "file_name": "very_dark_0392.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0071_20251208_120629.jpg"
+  },
+  {
+    "file_name": "very_dark_0393.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0055_20251208_120228.jpg"
+  },
+  {
+    "file_name": "very_dark_0394.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0062_20251208_120405.jpg"
+  },
+  {
+    "file_name": "very_dark_0395.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0075_20251208_120442.jpg"
+  },
+  {
+    "file_name": "very_dark_0396.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0040_20251208_120549.jpg"
+  },
+  {
+    "file_name": "very_dark_0397.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0036_20251208_120232.jpg"
+  },
+  {
+    "file_name": "very_dark_0398.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0074_20251208_120316.jpg"
+  },
+  {
+    "file_name": "very_dark_0399.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0059_20251208_120132.jpg"
+  },
+  {
+    "file_name": "very_dark_0400.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0105_20251208_120613.jpg"
+  },
+  {
+    "file_name": "very_dark_0401.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0050_20251208_120627.jpg"
+  },
+  {
+    "file_name": "very_dark_0402.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0083_20251208_120640.jpg"
+  },
+  {
+    "file_name": "very_dark_0403.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0011_20251208_120558.jpg"
+  },
+  {
+    "file_name": "very_dark_0404.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0100_20251208_120412.jpg"
+  },
+  {
+    "file_name": "very_dark_0405.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0104_20251208_120626.jpg"
+  },
+  {
+    "file_name": "very_dark_0406.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0058_20251208_120324.jpg"
+  },
+  {
+    "file_name": "very_dark_0407.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0090_20251208_120559.jpg"
+  },
+  {
+    "file_name": "very_dark_0408.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0099_20251208_120036.jpg"
+  },
+  {
+    "file_name": "very_dark_0409.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0032_20251208_120428.jpg"
+  },
+  {
+    "file_name": "very_dark_0410.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0025_20251208_120230.jpg"
+  },
+  {
+    "file_name": "very_dark_0411.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0024_20251208_120223.jpg"
+  },
+  {
+    "file_name": "very_dark_0412.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0064_20251208_120054.jpg"
+  },
+  {
+    "file_name": "very_dark_0413.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0051_20251208_120336.jpg"
+  },
+  {
+    "file_name": "very_dark_0414.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0037_20251208_120226.jpg"
+  },
+  {
+    "file_name": "very_dark_0415.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0045_20251208_120556.jpg"
+  },
+  {
+    "file_name": "very_dark_0416.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0002_20251208_120235.jpg"
+  },
+  {
+    "file_name": "very_dark_0417.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0026_20251208_120044.jpg"
+  },
+  {
+    "file_name": "very_dark_0418.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0000_20251208_120048.jpg"
+  },
+  {
+    "file_name": "very_dark_0419.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0021_20251208_120444.jpg"
+  },
+  {
+    "file_name": "very_dark_0420.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0023_20251208_120413.jpg"
+  },
+  {
+    "file_name": "very_dark_0421.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0102_20251208_120053.jpg"
+  },
+  {
+    "file_name": "very_dark_0422.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0041_20251208_120619.jpg"
+  },
+  {
+    "file_name": "very_dark_0423.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0077_20251208_120532.jpg"
+  },
+  {
+    "file_name": "very_dark_0424.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0101_20251208_120438.jpg"
+  },
+  {
+    "file_name": "very_dark_0425.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0014_20251208_120237.jpg"
+  },
+  {
+    "file_name": "very_dark_0426.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0097_20251208_120319.jpg"
+  },
+  {
+    "file_name": "very_dark_0427.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0047_20251208_120127.jpg"
+  },
+  {
+    "file_name": "very_dark_0428.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0068_20251208_120144.jpg"
+  },
+  {
+    "file_name": "very_dark_0429.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0094_20251208_120238.jpg"
+  },
+  {
+    "file_name": "very_dark_0430.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0008_20251208_120152.jpg"
+  },
+  {
+    "file_name": "very_dark_0431.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0038_20251208_120035.jpg"
+  },
+  {
+    "file_name": "very_dark_0432.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0018_20251208_120154.jpg"
+  },
+  {
+    "file_name": "very_dark_0433.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0069_20251208_120555.jpg"
+  },
+  {
+    "file_name": "very_dark_0434.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0013_20251208_120551.jpg"
+  },
+  {
+    "file_name": "very_dark_0435.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093752_0098_20251208_120620.jpg"
+  },
+  {
+    "file_name": "very_dark_0436.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0084_20251208_120131.jpg"
+  },
+  {
+    "file_name": "very_dark_0437.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0039_20251208_120632.jpg"
+  },
+  {
+    "file_name": "very_dark_0438.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0006_20251208_120313.jpg"
+  },
+  {
+    "file_name": "very_dark_0439.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0044_20251208_120645.jpg"
+  },
+  {
+    "file_name": "very_dark_0440.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0063_20251208_120225.jpg"
+  },
+  {
+    "file_name": "very_dark_0441.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0016_20251208_120617.jpg"
+  },
+  {
+    "file_name": "very_dark_0442.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0079_20251208_120331.jpg"
+  },
+  {
+    "file_name": "very_dark_0443.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0061_20251208_120552.jpg"
+  },
+  {
+    "file_name": "very_dark_0444.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093750_0028_20251208_120425.jpg"
+  },
+  {
+    "file_name": "very_dark_0445.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0066_20251208_120615.jpg"
+  },
+  {
+    "file_name": "very_dark_0446.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0005_20251208_120407.jpg"
+  },
+  {
+    "file_name": "very_dark_0447.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093751_0088_20251208_120429.jpg"
+  },
+  {
+    "file_name": "very_dark_0448.jpg",
+    "roast_level": "very_dark",
+    "label": 5,
+    "original_path": "data/raw/very_dark/very_dark_20251208_093749_0017_20251208_120610.jpg"
+  }
+]
