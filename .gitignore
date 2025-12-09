@@ -16,3 +16,24 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+ENV/
+
+# Generated output files (run analytics to generate)
+*.png
+*.csv
+!sample_data_generator.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
