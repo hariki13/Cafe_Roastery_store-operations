@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 # load your data
 df = pd.read_csv('data/kaggle/fore.csv')
 
@@ -164,3 +165,5 @@ except ValueError as e:
     print(f" ❌ Error converting to datetime: {e}")
 
 print("\n✅ Data type validation completed.")
+
+
