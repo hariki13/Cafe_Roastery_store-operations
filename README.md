@@ -1,2 +1,2 @@
 # store-operations
-Coffeeshop,Specialty Coffeeshop,WARKOP System optimize the Operations
+Coffeeshop,Specialty Coffeeshop,Coffee Roastery, Warung Kopi Systems optimize the Operations
