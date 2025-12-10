@@ -38,6 +38,7 @@ ENV/
 
 # Data files
 *.csv
+!data/raw/*.csv
 *.xlsx
 *.db
 *.sqlite

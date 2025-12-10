@@ -115,12 +115,14 @@ python test_color_analyzer.py  # You'll need to create this
 
 ```
 Cafe_Roastery_store-operations/
-├── RAW DATA/                          # Raw roast level datasets
-│   ├── LIGHT ROAST LEVEL             # Light roast color data
-│   ├── LIGHT_MEDIUM ROAST            # Light-medium roast data
-│   ├── MEDIUM ROAST                  # Medium roast data
-│   ├── MEDIUM_DARK                   # Medium-dark roast data
-│   └── VERY_DARK ROAST               # Very dark roast data
+├── data/                              # Data directory
+│   └── raw/                           # Raw roast level datasets
+│       ├── light_roast.csv            # Light roast color data
+│       ├── light_medium_roast.csv     # Light-medium roast data
+│       ├── medium_roast.csv           # Medium roast data
+│       ├── medium_dark_roast.csv      # Medium-dark roast data
+│       ├── dark_roast.csv             # Dark roast data
+│       └── very_dark_roast.csv        # Very dark roast data
 ├── models/                            # ML models (to be created)
 │   └── coffee color analyzer model   # Trained color detection model
 ├── src/                               # Source code (to be organized)
